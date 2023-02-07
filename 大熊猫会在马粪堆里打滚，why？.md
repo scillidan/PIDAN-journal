@@ -1,6 +1,6 @@
 ---
 title: "大熊猫会在马粪堆里打滚，why？"
-date: 2020.12.09
+date: 2020-12-09
 author: https://jandan.net/p/author/majer
 source: https://jandan.net/p/108176
 origsource: https://phys.org/news/2020-12-giant-pandas-horse-manure.html

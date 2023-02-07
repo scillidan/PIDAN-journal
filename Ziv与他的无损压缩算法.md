@@ -1,6 +1,6 @@
 ---
 title: "Ziv与他的无损压缩算法"
-date: 2021.04.26
+date: 2021-04-26
 author: https://jandan.net/p/author/majer
 source: https://jandan.net/p/108849
 origsource: https://spectrum.ieee.org/geek-life/profiles/from-winzips-to-cat-gifs-jacob-zivs-algorithms-have-powered-decades-of-compression
