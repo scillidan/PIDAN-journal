@@ -1,11 +1,17 @@
 input: .
 output: ./docs
-url: # Add your website address here
+url: https://scillidan.github.io/JANDAN-journal
 branding:
-  title: Project Name
-  label: Docs
+  title: JANDAN journal
+  label:
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
-footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+- text: source
+  link: https://github.com/scillidan/JANDAN-journal
+  icon: mark-github
+  target: blank
+# - text: discussions
+#   link: https://github.com/scillidan/JANDAN-journal/discussions
+#   icon: comment-discussion
+#   target: blank
+exclude:
+  - "notes.sqlite"
