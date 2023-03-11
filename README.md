@@ -10,3 +10,7 @@ date: 2023-03-01
 - YOGA Image Optimizer
 - waifu2x - Snowshell
 - ScreenToGif
+
+## todo
+
+- [ ] remove image's alt in QOwnNotes 
