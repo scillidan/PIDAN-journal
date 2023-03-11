@@ -1,12 +1,12 @@
 input: .
 output: ./docs
-url: https://scillidan.github.io/JANDAN-journal
+url: https://scillidan.github.io/PIDAN-journal
 branding:
-  title: JANDAN journal
+  title: 𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑
   label:
 links:
-- text: source
-  link: https://github.com/scillidan/JANDAN-journal
+- text: Source
+  link: https://github.com/scillidan/PIDAN-journal
   icon: mark-github
   target: blank
 # - text: discussions
@@ -15,3 +15,4 @@ links:
 #   target: blank
 exclude:
   - "notes.sqlite"
+  - "trash"
