@@ -14,5 +14,6 @@ links:
 #   icon: comment-discussion
 #   target: blank
 exclude:
+  - "trash/"
   - "notes.sqlite"
-  - "trash"
+  - "README.md"
