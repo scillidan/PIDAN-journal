@@ -7,4 +7,6 @@ date: 2023-03-01
 
 - MarkDownload - Markdown Web Clipper (Browser Plugin)
 - QOwnNotes
-- Guetzli GUI
+- YOGA Image Optimizer
+- waifu2x - Snowshell
+- ScreenToGif
