@@ -13,4 +13,4 @@ date: 2023-03-01
 
 ## todo
 
-- [ ] remove image's alt in QOwnNotes 
+- [ ] remove image's alt in QOwnNotes
