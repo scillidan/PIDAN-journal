@@ -12,7 +12,7 @@ icon: tools
 
 ![image](media/finishgame_01.jpg)
 
-As I work towards completing [my own game](https://href.li/?http://spelunkyworld.com/), I’ve been thinking a lot about finishing projects in general. I’ve noticed that there are a lot of talented developers out there that have trouble finishing games. Truthfully, I’ve left a long trail of unfinished games in my wake… I think everyone has. Not every project is going to pan out, for whatever reason. But if you find yourself consistently backing out of game projects that have a lot of potential, it could be worth taking a step back and examining why this happens.
+As I work towards completing [my own game](http://spelunkyworld.com/), I’ve been thinking a lot about finishing projects in general. I’ve noticed that there are a lot of talented developers out there that have trouble finishing games. Truthfully, I’ve left a long trail of unfinished games in my wake… I think everyone has. Not every project is going to pan out, for whatever reason. But if you find yourself consistently backing out of game projects that have a lot of potential, it could be worth taking a step back and examining why this happens.
 
 We’ve all had that feeling about at least one game, comic book, movie, etc., that comes out: “Gee, I could do better than this! This is overrated.” But it’s important to take a step back and realize that, hey, they put in the time to finish a project and I haven’t. That’s at least one thing they might be better than me at, and it’s probably why they have the recognition I don’t! If you treat finishing like a skill, rather than simply a step in the process, you can acknowledge not only that it’s something you can get better at, but also what habits and thought processes get in your way.
 
@@ -44,9 +44,9 @@ So dammit, even creating a game engine is not necessarily starting the damn game
 
 There are pros and cons to writing your own engine. But ask yourself, do you really have to? Is what you want to do impossible to do with what’s already out there or would you be reinventing the wheel? Of course, if you write your own engine you can make it just perfect the way you like it. But be honest, how often do you ever get past the engine to the game itself? Do you find yourself making game engines more often than you do games?
 
-I made the original version of Spelunky in [Game Maker](https://href.li/?http://www.yoyogames.com/make), and it’s that “finished” game that eventually gave me the opportunity to work on an Xbox 360 version. So don’t ever feel that game-making software or other simplified tools are somehow illegitimate. The important thing is the game.
+I made the original version of Spelunky in [Game Maker](http://www.yoyogames.com/make), and it’s that “finished” game that eventually gave me the opportunity to work on an Xbox 360 version. So don’t ever feel that game-making software or other simplified tools are somehow illegitimate. The important thing is the game.
 
-_Link: [The Independent Gaming Forums Technical Forums](https://href.li/?http://forums.tigsource.com/index.php?board=4.0)_
+_Link: [The Independent Gaming Forums Technical Forums](http://forums.tigsource.com/index.php?board=4.0)_
 
 ## 4\. PROTOTYPE
 
@@ -66,7 +66,7 @@ Finding a good game-making partner is like dating in a lot of ways. You may thin
 
 Another great thing about having finished projects is that your partners will know what you’re capable of and will feel more comfortable working with you. It’s hard to convince anyone experienced to work with you on an idea alone, considering how few ideas actually see the light of day (and how hard it is to see the value in some ideas until they’ve been executed). Good partners will want to see your finished games. So finish them!
 
-Alternatively, find free graphics and music to use online, at least as placeholders (at The Independent Gaming Source we had [a competition](https://href.li/?http://www.derekyu.com/tigs/assemblee/) in which a lot of free art and music was created). Use ASCII if you have to. As an artist, I know I’d much rather contribute to a project that is already done but just missing art. And if you need a coder… consider learning to code yourself (if I can do it, you can, too!) or picking up some game-making software (see #3).
+Alternatively, find free graphics and music to use online, at least as placeholders (at The Independent Gaming Source we had [a competition](http://www.derekyu.com/tigs/assemblee/) in which a lot of free art and music was created). Use ASCII if you have to. As an artist, I know I’d much rather contribute to a project that is already done but just missing art. And if you need a coder… consider learning to code yourself (if I can do it, you can, too!) or picking up some game-making software (see #3).
 
 ## 7\. GRIND IS NORMAL - FACTOR IT INTO YOUR PLAN
 
@@ -76,9 +76,9 @@ Once you go through it a couple of times, you’ll realize how important it is t
 
 ## 8\. USE AWARDS, COMPETITIONS, AND OTHER EVENTS AS REAL DEADLINES
 
-When Alec and I were working on [Aquaria](https://href.li/?http://www.bit-blot.com/aquaria/), the Independent Games Festival submission deadline forced us to make hard decisions about the direction we were taking and it also forced us to look at our schedule more realistically. Had we not had that deadline, I’m not entirely certain we would have finished! Competitions are great to participate in because the deadlines are very real and because the rewards (recognition, awards, possibly money) are very real. Also, they can give you a way to connect with a community of like-minded people.
+When Alec and I were working on [Aquaria](http://www.bit-blot.com/aquaria/), the Independent Games Festival submission deadline forced us to make hard decisions about the direction we were taking and it also forced us to look at our schedule more realistically. Had we not had that deadline, I’m not entirely certain we would have finished! Competitions are great to participate in because the deadlines are very real and because the rewards (recognition, awards, possibly money) are very real. Also, they can give you a way to connect with a community of like-minded people.
 
-_Links: [Independent Games Festival](https://href.li/?http://igf.com/), [Ludum Dare](https://href.li/?http://www.ludumdare.com/)_
+_Links: [Independent Games Festival](http://igf.com/), [Ludum Dare](http://www.ludumdare.com/)_
 
 ## 9\. PUSH FORWARD
 
