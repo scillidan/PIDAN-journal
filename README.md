@@ -1,9 +1,6 @@
----
-title: "PIDAN-journal"
-date: 2023-03-01
----
+# PIDAN-journal
 
-## tools
+## note
 
 - MarkDownload - Markdown Web Clipper (Browser Plugin)
 - QOwnNotes
