@@ -1,5 +1,5 @@
 input: .
-output: ./docs
+output: ./site
 url: https://scillidan.github.io/PIDAN-journal
 branding:
   title: 𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑
@@ -15,5 +15,6 @@ links:
 #   target: blank
 exclude:
   - "trash/"
+  - "site/"
   - "notes.sqlite"
   - "README.md"
