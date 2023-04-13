@@ -22,3 +22,5 @@ exclude:
   - "docs/"
   - "notes.sqlite"
   - "README.md"
+search:
+  maxResults: 50
