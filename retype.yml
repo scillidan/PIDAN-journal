@@ -9,6 +9,10 @@ links:
   link: https://github.com/scillidan/PIDAN-journal
   icon: mark-github
   target: blank
+- text: RSS
+  link: https://scillidan.github.io/PIDAN-journal/blog/feed.xml
+  icon: rss
+  target: blank
 # - text: discussions
 #   link: https://github.com/scillidan/JANDAN-journal/discussions
 #   icon: comment-discussion
