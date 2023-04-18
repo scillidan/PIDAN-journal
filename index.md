@@ -15,7 +15,7 @@ date | author | title | tag | publisher | license { class="compact" }
 2023-01-02 | YC | [睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己](./blog/"睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己") | :icon-squirrel: | jandan.net |
 2022-11-10 | 八里 | [无厘头研究：喜欢乱扔东西的章鱼](./blog/"无厘头研究：喜欢乱扔东西的章鱼") | :icon-squirrel: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
 2022-10-24 | majer | [为什么，同样是斑斓体表，有些动物用于吸引配偶，另一些则用于恐吓捕食者](./blog/"为什么，同样是斑斓体表，有些动物用于吸引配偶，另一些则用于恐吓捕食者") | :icon-squirrel: | jandan.net |
-2022-09-25 | majer | [大量水蒸气进入平流层 汤加火山喷发会在一段时间里提高地表温度](./blog/"大量水蒸气进入平流层-汤加火山喷发会在一段时间里提高地表温度") | :icon-squirrel: | jandan.net |
+2022-09-25 | majer | [大量水蒸气进入平流层 汤加火山喷发会在一段时间里提高地表温度](./blog/"大量水蒸气进入平流层-汤加火山喷发会在一段时间里提高地表温度") | :icon-moon: | jandan.net |
 2022-08-22 | majer | [在实验动物脑子里，找到了制造恐惧感的神经元](./blog/"在实验动物脑子里，找到了制造恐惧感的神经元") | :icon-squirrel: | jandan.net |
 2022-02-20 | icosohedral | [鳗鱼从哪来？](./blog/"鳗鱼从哪来？") | :icon-squirrel: | jandan.net |
 2022-01-01 | majer | [进化力量使螃蟹反复成为螃蟹](./blog/"进化力量使螃蟹反复成为螃蟹") | :icon-squirrel: | jandan.net |
