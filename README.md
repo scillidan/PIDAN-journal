@@ -1,6 +1,10 @@
 # PIDAN-journal
 
-## note
+![](PIDAN-journal.png)
+
+Archived some posts with [Retype](https://retype.com/).
+
+## Tools
 
 - MarkDownload - Markdown Web Clipper (Browser Plugin)
 - QOwnNotes
@@ -8,6 +12,6 @@
 - waifu2x - Snowshell
 - ScreenToGif
 
-## todo
+## Todo
 
 - [ ] remove image's alt in QOwnNotes
