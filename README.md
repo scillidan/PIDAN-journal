@@ -2,7 +2,7 @@
 
 ![](PIDAN-journal.png)
 
-Archived some posts with [Retype](https://retype.com/).
+Sometimes I read some posts and wanted to keep a copy locally. So I archived and view them with [Retype](https://retype.com/).
 
 ## Tools
 
