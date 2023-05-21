@@ -1,17 +1,20 @@
 # PIDAN-journal
 
-![](PIDAN-journal.png)
-
-Sometimes I read some posts and wanted to keep a copy locally. So I archived and view them with [Retype](https://retype.com/).
+build with [Retype](https://retype.com/).  
+I used it to archived and view some posts I have read.
 
 ## Tools
 
-- MarkDownload - Markdown Web Clipper (Browser Plugin)
-- QOwnNotes
-- YOGA Image Optimizer
-- waifu2x - Snowshell
-- ScreenToGif
+- [MarkDownload - Markdown Web Clipper](https://github.com/deathau/markdownload)
+- [QOwnNotes](https://www.qownnotes.org)
+- [YOGA Image Optimizer](https://github.com/flozz/yoga-image-optimizer)
+- [waifu2x - Snowshell](https://github.com/YukihoAA/waifu2x_snowshell)
+- [ScreenToGif](https://www.screentogif.com)
 
 ## Todo
 
 - [ ] remove image's alt in QOwnNotes
+
+## Screenshot
+
+![](PIDAN-journal.png)
