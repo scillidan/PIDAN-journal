@@ -27,6 +27,7 @@ date | author | title | tag | publisher | license { class="compact" }
 2020-09-27 | Diehard | [河狸、永冻土层和气候变化](./blog/"河狸、永冻土层和气候变化") | :icon-squirrel: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
 2020-12-09 | majer | [大熊猫会在马粪堆里打滚，why？](./blog/"大熊猫会在马粪堆里打滚，why？") | :icon-squirrel: | jandan.net |
 2020-05-19 | mailer | [火烈鸟可能对同伴很挑剔](./blog/"火烈鸟可能对同伴很挑剔") | :icon-squirrel: | jandan.net |
+2023-07-10 | 八里 | [池塘和湖泊的区别在哪](./blog/"池塘和湖泊的区别在哪") | :icon-moon: | jandan.net |
 2023-05-30 | majer | [雨后的蘑菇在地下用电信号交流？](./blog/"雨后的蘑菇在地下用电信号交流？") | :icon-moon: | jandan.net |
 2022-11-21 | majer | [原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束](./blog/"原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束") | :icon-moon: | jandan.net |
 2022-09-25 | majer | [大量水蒸气进入平流层 汤加火山喷发会在一段时间里提高地表温度](./blog/"大量水蒸气进入平流层-汤加火山喷发会在一段时间里提高地表温度") | :icon-moon: | jandan.net |
