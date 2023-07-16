@@ -10,6 +10,7 @@ PIDAN (academic) journal
 
 date | author | title | tag | publisher | license { class="compact" }
 --- | --- | --- | --- | --- | ---
+2023-07-13 | Diehard | [有鸟用防鸟刺筑巢以防御其他鸟类](./blog/"有鸟用防鸟刺筑巢以防御其他鸟类") | :icon-squirrel: | jandan.net |
 2023-03-11 | majer | [用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？](./blog/"用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？") | :icon-squirrel: | jandan.net |
 2023-02-15 | June | [可用于监视动物甚至人类的鸟尸无人机](./blog/"可用于监视动物甚至人类的鸟尸无人机") | :icon-squirrel: | jandan.net |
 2023-01-02 | YC | [睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己](./blog/"睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己") | :icon-squirrel: | jandan.net |
@@ -61,8 +62,6 @@ date | author | title | tag | publisher | license { class="compact" }
 2022-11-02 | 八里 | [人工智能、艺术家和图像的未来](./blog/"人工智能、艺术家和图像的未来") | :icon-code-square: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
 2021-09-16 | majer | [相比人类，复制蜻蜓大脑的人工神经网络为何更有价值](./blog/"相比人类，复制蜻蜓大脑的人工神经网络为何更有价值") | :icon-code-square: | jandan.net |
 2021-04-26 | majer | [Ziv与他的无损压缩算法](./blog/"Ziv与他的无损压缩算法") | :icon-code-square: | jandan.net |
-2022-11-09 | 烽火连城 | [自己当发行商也不容易，来看看《战场的赋格曲》所遭遇的全球发行问题](./blog/"自己当发行商也不容易，来看看《战场的赋格曲》所遭遇的全球发行问题") | :icon-tools: | indienova.com | [cc by-nc 3.0](http://creativecommons.org/licenses/by-nc/3.0)
 2021-06-05 | BISK | [闭门造船：如何设计一艘21世纪的帆船](./blog/"闭门造船：如何设计一艘21世纪的帆船") | :icon-tools: | jandan.net |
-2010-09-17 | Derek | [Finishing a Game](./blog/"Finishing-a-Game") | :icon-tools: |derekyu.com |
 
 
