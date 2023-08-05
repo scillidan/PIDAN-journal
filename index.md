@@ -10,11 +10,12 @@ PIDAN (academic) journal
 
 date | author | title | tag | publisher | license { class="compact" }
 --- | --- | --- | --- | --- | ---
+2023-07-29 | BALI | [蜂巢里的几何学](./blog/"蜂巢里的几何学") | :icon-squirrel: | jandan.net |
 2023-07-13 | Diehard | [有鸟用防鸟刺筑巢以防御其他鸟类](./blog/"有鸟用防鸟刺筑巢以防御其他鸟类") | :icon-squirrel: | jandan.net |
 2023-03-11 | majer | [用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？](./blog/"用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？") | :icon-squirrel: | jandan.net |
 2023-02-15 | June | [可用于监视动物甚至人类的鸟尸无人机](./blog/"可用于监视动物甚至人类的鸟尸无人机") | :icon-squirrel: | jandan.net |
 2023-01-02 | YC | [睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己](./blog/"睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己") | :icon-squirrel: | jandan.net |
-2022-11-10 | 八里 | [无厘头研究：喜欢乱扔东西的章鱼](./blog/"无厘头研究：喜欢乱扔东西的章鱼") | :icon-squirrel: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
+2022-11-10 | BALI | [无厘头研究：喜欢乱扔东西的章鱼](./blog/"无厘头研究：喜欢乱扔东西的章鱼") | :icon-squirrel: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
 2022-10-24 | majer | [为什么，同样是斑斓体表，有些动物用于吸引配偶，另一些则用于恐吓捕食者](./blog/"为什么，同样是斑斓体表，有些动物用于吸引配偶，另一些则用于恐吓捕食者") | :icon-squirrel: | jandan.net |
 2022-08-22 | majer | [在实验动物脑子里，找到了制造恐惧感的神经元](./blog/"在实验动物脑子里，找到了制造恐惧感的神经元") | :icon-squirrel: | jandan.net |
 2022-02-20 | icosohedral | [鳗鱼从哪来？](./blog/"鳗鱼从哪来？") | :icon-squirrel: | jandan.net |
@@ -28,7 +29,7 @@ date | author | title | tag | publisher | license { class="compact" }
 2020-09-27 | Diehard | [河狸、永冻土层和气候变化](./blog/"河狸、永冻土层和气候变化") | :icon-squirrel: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
 2020-12-09 | majer | [大熊猫会在马粪堆里打滚，why？](./blog/"大熊猫会在马粪堆里打滚，why？") | :icon-squirrel: | jandan.net |
 2020-05-19 | mailer | [火烈鸟可能对同伴很挑剔](./blog/"火烈鸟可能对同伴很挑剔") | :icon-squirrel: | jandan.net |
-2023-07-10 | 八里 | [池塘和湖泊的区别在哪](./blog/"池塘和湖泊的区别在哪") | :icon-moon: | jandan.net |
+2023-07-10 | BALI | [池塘和湖泊的区别在哪](./blog/"池塘和湖泊的区别在哪") | :icon-moon: | jandan.net |
 2023-05-30 | majer | [雨后的蘑菇在地下用电信号交流？](./blog/"雨后的蘑菇在地下用电信号交流？") | :icon-moon: | jandan.net |
 2022-11-21 | majer | [原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束](./blog/"原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束") | :icon-moon: | jandan.net |
 2022-09-25 | majer | [大量水蒸气进入平流层 汤加火山喷发会在一段时间里提高地表温度](./blog/"大量水蒸气进入平流层-汤加火山喷发会在一段时间里提高地表温度") | :icon-moon: | jandan.net |
@@ -36,8 +37,8 @@ date | author | title | tag | publisher | license { class="compact" }
 2021-06-17 | majer | [无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃](./blog/"无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃") | :icon-moon: | jandan.net |
 2020-07-31 | icosohedral | [地球气候的自然变化方式，以及我们是否应该对全球变暖负责](./blog/"地球气候的自然变化方式，以及我们是否应该对全球变暖负责") | :icon-moon: | jandan.net |
 2020-05-09 | icosohedral | [“我们家门口”的黑洞](./blog/"“我们家门口”的黑洞") | :icon-moon: | jandan.net |
-2023-03-08 | 八里 | [长期新冠现在看起来像一种神经系统疾病](./blog/"长期新冠现在看起来像一种神经系统疾病") | :icon-accessibility: | jandan.net |
-2022-11-30 | 八里 | [关于白噪音、粉红噪音和棕色噪音](./blog/"关于白噪音、粉红噪音和棕色噪音") | :icon-accessibility: | jandan.net |
+2023-03-08 | BALI | [长期新冠现在看起来像一种神经系统疾病](./blog/"长期新冠现在看起来像一种神经系统疾病") | :icon-accessibility: | jandan.net |
+2022-11-30 | BALI | [关于白噪音、粉红噪音和棕色噪音](./blog/"关于白噪音、粉红噪音和棕色噪音") | :icon-accessibility: | jandan.net |
 2022-11-28 | majer | [装有黄金舌头的古埃及木乃伊](./blog/"装有黄金舌头的古埃及木乃伊") | :icon-accessibility: | jandan.net |
 2022-11-16 | majer | [意外：电子书的“磨损”速度比实体书要快](./blog/"意外：电子书的“磨损”速度比实体书要快") | :icon-accessibility: | jandan.net |
 2022-11-13 | Crestfallen | [研究发现人体内存在调控脂肪燃烧的神经系统](./blog/"研究发现人体内存在调控脂肪燃烧的神经系统") | :icon-accessibility: | jandan.net |
@@ -59,9 +60,10 @@ date | author | title | tag | publisher | license { class="compact" }
 2020-11-19 | icosohedral | [孤独引领我们走向何方？](./blog/"孤独引领我们走向何方？") | :icon-italic: | jandan.net |
 2020-09-07 | icosohedral | [叔本华的小确幸](./blog/"叔本华的小确幸") | :icon-italic: | jandan.net |
 2020-07-15 | icosohedral | [海德格尔与卡尔纳普的爱恨情仇](./blog/"海德格尔与卡尔纳普的爱恨情仇") | :icon-italic: | jandan.net |
-2022-11-02 | 八里 | [人工智能、艺术家和图像的未来](./blog/"人工智能、艺术家和图像的未来") | :icon-code-square: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
+2022-11-02 | BALI | [人工智能、艺术家和图像的未来](./blog/"人工智能、艺术家和图像的未来") | :icon-code-square: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
 2021-09-16 | majer | [相比人类，复制蜻蜓大脑的人工神经网络为何更有价值](./blog/"相比人类，复制蜻蜓大脑的人工神经网络为何更有价值") | :icon-code-square: | jandan.net |
 2021-04-26 | majer | [Ziv与他的无损压缩算法](./blog/"Ziv与他的无损压缩算法") | :icon-code-square: | jandan.net |
-2021-06-05 | BISK | [闭门造船：如何设计一艘21世纪的帆船](./blog/"闭门造船：如何设计一艘21世纪的帆船") | :icon-tools: | jandan.net |
+2023-08-01 | BALI | [在人造卫星发明之前，人们是如何制作地图的](./blog/"在人造卫星发明之前，人们是如何制作地图的") | :icon-tools: | jandan.net
+2021-06-05 | BISK | [闭门造船：如何设计一艘21世纪的帆船](./blog/"闭门造船：如何设计一艘21世纪的帆船") | :icon-tools: | jandan.net|
 
 

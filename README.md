@@ -11,12 +11,12 @@ I used it to archived and view some posts I have read.
 - [waifu2x - Snowshell](https://github.com/YukihoAA/waifu2x_snowshell)
 - [ScreenToGif](https://www.screentogif.com)
 
-## Todo
-
-- [x] use `github actions`
-- [ ] remove image's alt in QOwnNotes
-- [ ] collect data for license
-
 ## Screenshot
 
 ![](PIDAN-journal.png)
+
+## Todo
+
+- [x] use `github actions`
+- [x] remove image's alt in QOwnNotes
+- [ ] collect data for license
