@@ -13,10 +13,8 @@ I used it to archived and view some posts I have read.
 
 ## Screenshot
 
-![](PIDAN-journal.png)
+![](https://raw.githubusercontent.com/scillidan/repo_cos/main/screenshot/PIDAN-journal.png)
 
 ## Todo
 
-- [x] use `github actions`
-- [x] remove image's alt in QOwnNotes
 - [ ] collect data for license
