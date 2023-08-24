@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 31 Aug 2023 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>科学家总结了动物进化的七条规则</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/科学家总结了动物进化的七条规则/</guid>
+      <description>自然界有一些规律可以解释我们在动物王国中看到的极端形状和大小。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>在人造卫星发明之前，人们是如何制作地图的</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/在人造卫星发明之前人们是如何制作地图的/</guid>
@@ -139,13 +146,6 @@
       <description>一项新的研究分析了位于北海(比利时境内海域)的、第二次世界大战时的沉船V-1302约翰·马恩(John Mahn)号，发现从残骸中泄漏的物质在80年后仍在影响周围的微生物学和地球化学系统。</description>
       <author>majer - https://jandan.net/p/author/majer</author>
       <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>大量水蒸气进入平流层 汤加火山喷发会在一段时间里提高地表温度</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/大量水蒸气进入平流层-汤加火山喷发会在一段时间里提高地表温度/</guid>
-      <description>汤加附近的水下火山于1月14日喷发，至今已过去8个多月，科学家们仍在分析这轮猛烈喷发的影响。</description>
-      <author>majer - https://jandan.net/p/author/majer</author>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
