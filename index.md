@@ -10,6 +10,7 @@ PIDAN (academic) journal
 
 date | author | title | tag | publisher | license { class="compact" }
 --- | --- | --- | --- | --- | ---
+2023-08-31 | BALI | [科学家总结了动物进化的七条规则](./blog/"科学家总结了动物进化的七条规则") | :icon-squirrel: | jandan.net |
 2023-07-29 | BALI | [蜂巢里的几何学](./blog/"蜂巢里的几何学") | :icon-squirrel: | jandan.net |
 2023-07-13 | Diehard | [有鸟用防鸟刺筑巢以防御其他鸟类](./blog/"有鸟用防鸟刺筑巢以防御其他鸟类") | :icon-squirrel: | jandan.net |
 2023-03-11 | majer | [用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？](./blog/"用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？") | :icon-squirrel: | jandan.net |
