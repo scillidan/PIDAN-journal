@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Thu, 31 Aug 2023 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 Sep 2023 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>像达尔文一样用餐：当科学家吞食他们的研究对象</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/像达尔文一样用餐当科学家吞食他们的研究对象/</guid>
+      <description>概要：</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>科学家总结了动物进化的七条规则</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/科学家总结了动物进化的七条规则/</guid>
@@ -139,13 +146,6 @@
       <description>作为我们建筑环境的重要组成部分，道路几千年来一直是支持人类生存的主要基础设施。它们的建造和使用方式揭示了现代社会和经济的很多信息，但它们也可以提供一个通往历史的重要窗口。</description>
       <author>majer - https://jandan.net/p/author/majer</author>
       <pubDate>Tue, 25 Oct 2022 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么，同样是斑斓体表，有些动物用于吸引配偶，另一些则用于恐吓捕食者</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/为什么同样是斑斓体表有些动物用于吸引配偶另一些则用于恐吓捕食者/</guid>
-      <description>在五彩斑斓又时尚的动物世界里，经常有撞衫的现象。</description>
-      <author>majer - https://jandan.net/p/author/majer</author>
-      <pubDate>Mon, 24 Oct 2022 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
