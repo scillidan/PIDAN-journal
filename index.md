@@ -10,6 +10,7 @@ PIDAN (academic) journal
 
 date | author | title | tag | publisher | license { class="compact" }
 --- | --- | --- | --- | --- | ---
+2023-10-03 | BALI | [死后的微生物：为新生命提供养分](./blog/"死后的微生物：为新生命提供养分") | :icon-squirrel: | jandan.net |
 2023-09-02 | BALI | [像达尔文一样用餐：当科学家吞食他们的研究对象](./blog/"像达尔文一样用餐：当科学家吞食他们的研究对象") | :icon-squirrel: | jandan.net |
 2023-08-31 | BALI | [科学家总结了动物进化的七条规则](./blog/"科学家总结了动物进化的七条规则") | :icon-squirrel: | jandan.net |
 2023-08-24 | BALI | [恐龙在一次大灭绝中幸存了下来，但后来的它们没那么好运](./blog/"恐龙在一次大灭绝中幸存了下来，但后来的它们没那么好运") | :icon-squirrel: | jandan.net |
