@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Sat, 02 Sep 2023 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>死后的微生物：为新生命提供养分</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/死后的微生物为新生命提供养分/</guid>
+      <description>每个人体内都含有数万亿复杂的微生物群系，这些微生物在你活着时对你的健康非常重要。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>像达尔文一样用餐：当科学家吞食他们的研究对象</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/像达尔文一样用餐当科学家吞食他们的研究对象/</guid>
@@ -139,13 +146,6 @@
       <description>波士顿的一个团队提出了一种新的意识理论，认为其与记忆密不可分。</description>
       <author>majer - https://jandan.net/p/author/majer</author>
       <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>人类从何时开始使用道路</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/人类从何时开始使用道路/</guid>
-      <description>作为我们建筑环境的重要组成部分，道路几千年来一直是支持人类生存的主要基础设施。它们的建造和使用方式揭示了现代社会和经济的很多信息，但它们也可以提供一个通往历史的重要窗口。</description>
-      <author>majer - https://jandan.net/p/author/majer</author>
-      <pubDate>Tue, 25 Oct 2022 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
