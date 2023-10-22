@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Oct 2023 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>动物是如何进化出飞行能力的</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/动物是如何进化出飞行能力的/</guid>
+      <description>哪个先出现：飞行的恐龙还是鸟类？</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>死后的微生物：为新生命提供养分</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/死后的微生物为新生命提供养分/</guid>
@@ -139,13 +146,6 @@
       <description>由Midjourney创作的Vilém Flusser(媒介哲学家)肖像</description>
       <author>BALI - https://jandan.net/p/author/bali</author>
       <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>意识假说：意识是为了统合记忆而存在，自主做出的决定其实是对大脑决策过程的回忆</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/意识假说意识是为了统合记忆而存在自主做出的决定其实是对大脑决策过程的回忆/</guid>
-      <description>波士顿的一个团队提出了一种新的意识理论，认为其与记忆密不可分。</description>
-      <author>majer - https://jandan.net/p/author/majer</author>
-      <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
