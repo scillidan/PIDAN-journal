@@ -10,6 +10,7 @@ PIDAN (academic) journal
 
 date | author | title | tag | publisher | license { class="compact" }
 --- | --- | --- | --- | --- | ---
+2023-11-16 | BALI | [毛毛虫是如何变成美丽蝴蝶的](./blog/"毛毛虫是如何变成美丽蝴蝶的") | :icon-squirrel: | jandan.net |
 2023-10-22 | BALI | [动物是如何进化出飞行能力的](./blog/"动物是如何进化出飞行能力的") | :icon-squirrel: | jandan.net |
 2023-10-03 | BALI | [死后的微生物：为新生命提供养分](./blog/"死后的微生物：为新生命提供养分") | :icon-squirrel: | jandan.net |
 2023-09-02 | BALI | [像达尔文一样用餐：当科学家吞食他们的研究对象](./blog/"像达尔文一样用餐：当科学家吞食他们的研究对象") | :icon-squirrel: | jandan.net |
