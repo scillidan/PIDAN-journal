@@ -56,6 +56,7 @@ date | author | title | tag | publisher | license { class="compact" }
 2021-10-14 | majer | [我们终于拿到了哲人石的配方：化学史专家破译了古老的炼金术秘本](./blog/"我们终于拿到了哲人石的配方：化学史专家破译了古老的炼金术秘本") | :icon-accessibility: | jandan.net |
 2021-09-22 | majer | [圣经时代的中东古城被陨石毁灭，威力约为广岛原子弹的1000倍](./blog/"圣经时代的中东古城被陨石毁灭，威力约为广岛原子弹的1000倍") | :icon-accessibility: | jandan.net |
 2021-03-28 | majer | [争议：百多年前被鉴定为赝品的残卷是《申命记》的原本？](./blog/"争议：百多年前被鉴定为赝品的残卷是《申命记》的原本？") | :icon-accessibility: | jandan.net |
+2023-12-05 | icosohedral | [死亡的起源](./blog/"死亡的起源") | :icon-accessibility: | jandan.net |
 2021-01-09 | icosohedral | [意识不是幻觉](./blog/"意识不是幻觉") | :icon-accessibility: | jandan.net |
 2020-12-24 | 中立大手指 | [鸦片战争前传之道光搞钱记](./blog/"鸦片战争前传之道光搞钱记") | :icon-accessibility: | bigbigfinger |
 2020-07-14 | 中立大手指 | [民营企业与二战：从炸飞了100万人的A.O.史密斯说起](./blog/"民营企业与二战：从炸飞了100万人的A.O.史密斯说起") | :icon-accessibility: | bigbigfinger |
@@ -66,6 +67,7 @@ date | author | title | tag | publisher | license { class="compact" }
 2020-11-19 | icosohedral | [孤独引领我们走向何方？](./blog/"孤独引领我们走向何方？") | :icon-italic: | jandan.net |
 2020-09-07 | icosohedral | [叔本华的小确幸](./blog/"叔本华的小确幸") | :icon-italic: | jandan.net |
 2020-07-15 | icosohedral | [海德格尔与卡尔纳普的爱恨情仇](./blog/"海德格尔与卡尔纳普的爱恨情仇") | :icon-italic: | jandan.net |
+2023-12-06 | BALI | [PDF的历史](./blog/"PDF的历史") | :icon-code-square: | jandan.net |
 2022-11-02 | BALI | [人工智能、艺术家和图像的未来](./blog/"人工智能、艺术家和图像的未来") | :icon-code-square: | jandan.net | [cc by-nc 4.0](https://creativecommons.org/licenses/by-nc/4.0)
 2021-09-16 | majer | [相比人类，复制蜻蜓大脑的人工神经网络为何更有价值](./blog/"相比人类，复制蜻蜓大脑的人工神经网络为何更有价值") | :icon-code-square: | jandan.net |
 2021-04-26 | majer | [Ziv与他的无损压缩算法](./blog/"Ziv与他的无损压缩算法") | :icon-code-square: | jandan.net |
