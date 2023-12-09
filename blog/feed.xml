@@ -4,9 +4,23 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Thu, 16 Nov 2023 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>PDF的历史</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/pdf的历史/</guid>
+      <description>你上次点击一个链接，发现自己正在打开一个PDF文件，却没有痛苦地叹气是什么时候？</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>死亡的起源</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/死亡的起源/</guid>
+      <description>乔治·沃尔德 于1970年</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>毛毛虫是如何变成美丽蝴蝶的</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/毛毛虫是如何变成美丽蝴蝶的/</guid>
@@ -132,20 +146,6 @@
       <description>半个世纪前的实体书，哪怕不需要特别细心的呵护，往往到今天仍适合于阅读。但电子书呢？好吧，半个世纪前还没有电子书——但十年前的电子书又怎么样呢？</description>
       <author>majer - https://jandan.net/p/author/majer</author>
       <pubDate>Wed, 16 Nov 2022 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究发现人体内存在调控脂肪燃烧的神经系统</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/研究发现人体内存在调控脂肪燃烧的神经系统/</guid>
-      <description>一直以来，研究者们都认为大脑通过监测血液中脂肪相关的激素的水平来对其进行调控。但一项新的研究显示，除此之外，脂肪与大脑之间还存在别的沟通方法。那就是通过一整套神经系统来实现信号的直接传输。来自斯克利浦研究院的神经科学专家Li Ye表示，这意味着你的大脑其实很主动地在关心你的脂肪水平。</description>
-      <author>Crestfallen - https://jandan.net/p/author/Crestfallen</author>
-      <pubDate>Sun, 13 Nov 2022 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>无厘头研究：喜欢乱扔东西的章鱼</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/无厘头研究喜欢乱扔东西的章鱼/</guid>
-      <description>在11月9日发表在《PLOS ONE》杂志上的一项研究中，作者史无前例的记录了章鱼似乎故意向对方投掷淤泥和贝壳等东西的镜头，事实上，这是首次在这种生物身上观察到投掷行为。</description>
-      <author>BALI - https://jandan.net/p/author/bali</author>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
