@@ -6,7 +6,7 @@ authors:
   - link: https://jandan.net/p/author/bali
     name: BALI
     avatar: https://raw.githubusercontent.com/scillidan/repo_cos/main/icon/jin_grey.png
-source: https://jandan.net/p/
+source: https://jandan.net/p/114987
 origauthor: Sensible Blog
 origsource: https://www.sensible.so/blog/history-of-the-pdf
 order: 20231206

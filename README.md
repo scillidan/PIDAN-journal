@@ -1,12 +1,12 @@
 # PIDAN-journal
 
-Build with [Retype](https://retype.com/). I used it to archived and view some posts I have read.
+Build with [Retype](https://retype.com/). I used it to archived and view some posts I have read. Also include some comments.
 
 ## Tools
 
 - [MarkDownload - Markdown Web Clipper](https://github.com/deathau/markdownload)
 - [waifu2x - Snowshell](https://github.com/YukihoAA/waifu2x_snowshell)
-- [ScreenToGif](https://www.screentogif.com)
+- [GIF Compressor](https://github.com/shawnrivers/gif-compressor) [x] [ScreenToGif](https://www.screentogif.com)
 
 ## Screenshot
 
