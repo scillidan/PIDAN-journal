@@ -4,14 +4,21 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Dec 2023 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>真的是“条条大路通罗马”吗？</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/真的是条条大路通罗马吗/</guid>
+      <description>这个地图故事讲的是关于一张特殊的地图，这是罗马帝国的唯一遗留地图。这张地图长6.8米，高33厘米，跨度从今日的西法到斯里兰卡，从南部的阿斯旺到北部的海牙，几乎包括了已知世界的所有地方。它显示的是公共课程的路线，这是国家管理的供信使和官方运输使用的道路网。我们称之为Tabula...</description>
+      <author>chaozaiji - https://jandan.net/p/author/chaozaiji</author>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>半机械蟑螂，地震搜救的未来？</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/半机械蟑螂地震搜救的未来/</guid>
       <description>从可驾驶的仿生动物到由肌肉制成的机器，生物混合机器人正在走向各种应用。</description>
-      <author>超载鸡 - https://jandan.net/p/author/chaozaiji</author>
+      <author>chaozaiji - https://jandan.net/p/author/chaozaiji</author>
       <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -139,13 +146,6 @@
       <description>考古学家在埃及发现了几具古老的木乃伊，他们的嘴里有一片黄金舌头。</description>
       <author>majer - https://jandan.net/p/author/majer</author>
       <pubDate>Mon, 28 Nov 2022 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/原来植物血管也会有气栓塞为何现代植物进化出如此复杂的维管束/</guid>
-      <description>耶鲁大学的研究团队认为，他们终于弄清了为什么陆地植物会进化出如此复杂的“血管”系统——这个谜团已经存在了大约一个世纪。</description>
-      <author>majer - https://jandan.net/p/author/majer</author>
-      <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
