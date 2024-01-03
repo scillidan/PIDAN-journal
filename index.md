@@ -44,6 +44,7 @@ PIDAN (academic) journal
 | 2021-06-17 | :icon-moon:          | jandan.net   | majer       | [无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃](./blog/"无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃") |
 | 2020-07-31 | :icon-moon:          | jandan.net   | icosohedral | [地球气候的自然变化方式，以及我们是否应该对全球变暖负责](./blog/"地球气候的自然变化方式，以及我们是否应该对全球变暖负责") |
 | 2020-05-09 | :icon-moon:          | jandan.net   | icosohedral | [“我们家门口”的黑洞](./blog/"“我们家门口”的黑洞") |
+| 2023-12-31 | :icon-accessibility: | jandan.net   | BALI        | [美国人不懂中国豆腐](./blog/"美国人不懂中国豆腐") |
 | 2023-12-27 | :icon-accessibility: | jandan.net   | chaozaiji   | [真的是“条条大路通罗马”吗？](./blog/"真的是“条条大路通罗马”吗？") |
 | 2023-03-08 | :icon-accessibility: | jandan.net   | BALI        | [长期新冠现在看起来像一种神经系统疾病](./blog/"长期新冠现在看起来像一种神经系统疾病") |
 | 2022-11-30 | :icon-accessibility: | jandan.net   | BALI        | [关于白噪音、粉红噪音和棕色噪音](./blog/"关于白噪音、粉红噪音和棕色噪音") |
@@ -75,5 +76,3 @@ PIDAN (academic) journal
 | 2021-04-26 | :icon-code-square:   | jandan.net   | majer       | [Ziv与他的无损压缩算法](./blog/"Ziv与他的无损压缩算法") |
 | 2023-08-01 | :icon-tools:         | jandan.net   | BALI        | [在人造卫星发明之前，人们是如何制作地图的](./blog/"在人造卫星发明之前，人们是如何制作地图的") |
 | 2021-06-05 | :icon-tools:         | jandan.net   | BISK        | [闭门造船：如何设计一艘21世纪的帆船](./blog/"闭门造船：如何设计一艘21世纪的帆船") |
-
-
