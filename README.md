@@ -10,7 +10,7 @@ Build with [Retype](https://retype.com/). I used it to archived and view some po
 
 ## Screenshot
 
-![](https://raw.githubusercontent.com/scillidan/repo_cos/main/screenshot/PIDAN-journal.png)
+![](https://raw.githubusercontent.com/scillidan/private_cos/main/screenshot/PIDAN-journal.png)
 
 ## Todo
 

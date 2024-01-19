@@ -5,7 +5,7 @@ date: 2020-12-09
 authors:
   - link: https://jandan.net/p/author/majer
     name: majer
-    avatar: https://raw.githubusercontent.com/scillidan/repo_cos/main/icon/jin_grey.png
+    avatar: https://raw.githubusercontent.com/scillidan/private_cos_others/main/avater/jin_grey.png
 source: https://jandan.net/p/108176
 origsource: https://phys.org/news/2020-12-giant-pandas-horse-manure.html
 order: 20201209
