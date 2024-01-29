@@ -10,6 +10,7 @@ PIDAN (academic) journal
 
 | date       | tag                  | publisher    | author      | title |
 | :-         | :-:                  | :-           | :-          | :- |
+| 2024-01-27 | :icon-squirrel:      | jandan.net   | chaozaiji   | [无脑生物是如何学习和记忆的](./blog/"无脑生物是如何学习和记忆的") |
 | 2023-12-11 | :icon-squirrel:      | jandan.net   | chaozaiji   | [半机械蟑螂，地震搜救的未来？](./blog/"半机械蟑螂，地震搜救的未来？") |
 | 2023-11-16 | :icon-squirrel:      | jandan.net   | BALI        | [毛毛虫是如何变成美丽蝴蝶的](./blog/"毛毛虫是如何变成美丽蝴蝶的") |
 | 2023-10-22 | :icon-squirrel:      | jandan.net   | BALI        | [动物是如何进化出飞行能力的](./blog/"动物是如何进化出飞行能力的") |
