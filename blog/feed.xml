@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>无脑生物是如何学习和记忆的</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/无脑生物是如何学习和记忆的/</guid>
+      <description>许多细胞团长期展现了基础认知能力，一些动物甚至失去了大脑还能记住事情</description>
+      <author>chaozaiji - https://jandan.net/p/author/chaozaiji</author>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>饺子的全球史</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/饺子的全球史/</guid>
@@ -139,13 +146,6 @@
       <description>用鸟类尸体标本进行伪装的扑翼式无人机可以用于研究野生鸟类或军事间谍任务，但这类无人机目前还不是最高效的飞行器。</description>
       <author>June</author>
       <pubDate>Wed, 15 Feb 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己/</guid>
-      <description>这种蛙 (Hyalinobatrachium fleischmanni) 能把血细胞藏起来从而提高自身透明度，而且这样做也没有副作用。</description>
-      <author>YC</author>
-      <pubDate>Mon, 02 Jan 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
