@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>进化大爆发之谜：蛇为何如此种类繁多？</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/进化大爆发之谜蛇为何如此种类繁多/</guid>
+      <description>全世界有数千种蛇类，其惊人的多样性是生物进化史上的一个谜题。最新研究表明，蛇类的爆发式演化可能源于一次特殊的“奇点事件”，使其成为爬行动物中独树一帜的存在。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>无脑生物是如何学习和记忆的</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/无脑生物是如何学习和记忆的/</guid>
@@ -139,13 +146,6 @@
       <description>太长不看版摘要：</description>
       <author>BALI - https://jandan.net/p/author/bali</author>
       <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>可用于监视动物甚至人类的鸟尸无人机</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/可用于监视动物甚至人类的鸟尸无人机/</guid>
-      <description>用鸟类尸体标本进行伪装的扑翼式无人机可以用于研究野生鸟类或军事间谍任务，但这类无人机目前还不是最高效的飞行器。</description>
-      <author>June</author>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
