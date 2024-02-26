@@ -10,6 +10,7 @@ PIDAN (academic) journal
 
 | date       | tag                  | publisher    | author      | title |
 | :-         | :-:                  | :-           | :-          | :- |
+| 2024-02-24 | :icon-squirrel:      | jandan.net   | BALI        | [进化大爆发之谜：蛇为何如此种类繁多？](./blog/"进化大爆发之谜：蛇为何如此种类繁多？") |
 | 2024-01-27 | :icon-squirrel:      | jandan.net   | chaozaiji   | [无脑生物是如何学习和记忆的](./blog/"无脑生物是如何学习和记忆的") |
 | 2023-12-11 | :icon-squirrel:      | jandan.net   | chaozaiji   | [半机械蟑螂，地震搜救的未来？](./blog/"半机械蟑螂，地震搜救的未来？") |
 | 2023-11-16 | :icon-squirrel:      | jandan.net   | BALI        | [毛毛虫是如何变成美丽蝴蝶的](./blog/"毛毛虫是如何变成美丽蝴蝶的") |
