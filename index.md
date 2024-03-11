@@ -38,6 +38,7 @@ PIDAN (academic) journal
 | 2020-09-27 | :icon-squirrel:      | jandan.net   | Diehard     | [河狸、永冻土层和气候变化](./blog/"河狸、永冻土层和气候变化") |
 | 2020-12-09 | :icon-squirrel:      | jandan.net   | majer       | [大熊猫会在马粪堆里打滚，why？](./blog/"大熊猫会在马粪堆里打滚，why？") |
 | 2020-05-19 | :icon-squirrel:      | jandan.net   | mailer      | [火烈鸟可能对同伴很挑剔](./blog/"火烈鸟可能对同伴很挑剔") |
+| 2024-03-06 | :icon-moon:          | jandan.net   | BALI        | [扁豆：从默默无闻到人类文明基石](./blog/"扁豆：从默默无闻到人类文明基石") |
 | 2023-07-10 | :icon-moon:          | jandan.net   | BALI        | [池塘和湖泊的区别在哪](./blog/"池塘和湖泊的区别在哪") |
 | 2023-05-30 | :icon-moon:          | jandan.net   | majer       | [雨后的蘑菇在地下用电信号交流？](./blog/"雨后的蘑菇在地下用电信号交流？") |
 | 2022-11-21 | :icon-moon:          | jandan.net   | majer       | [原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束](./blog/"原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束") |
