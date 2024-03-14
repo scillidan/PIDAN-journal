@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>疯狂的石头：治疗狂犬病的“万能良药”</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/疯狂的石头治疗狂犬病的万能良药/</guid>
+      <description>在疫苗问世前，人们曾对付致命的狂犬病疫情，普遍采用神秘的动植矿物复合"狂犬石"疗法。这种奇特的民间仪式，源自人类对未知的恐惧与渴求掌控的冲动。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>扁豆：从默默无闻到人类文明基石</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/扁豆从默默无闻到人类文明基石/</guid>
@@ -139,13 +146,6 @@
       <description>你是否曾经看着一片水域并思考：这是一个美丽的池塘还是一个壮丽的湖泊？它们之间到底有什么区别？</description>
       <author>bali - http://i.jandan.net/p/author/bali</author>
       <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/用于蛋糕冰激凌的人造香草调味剂真的来自海狸的肛门分泌物吗/</guid>
-      <description>从蛋糕、糖果到麦片和冰淇淋，香草、草莓和覆盆子(味)等人造香料广泛存在于加工食品中。</description>
-      <author>majer - https://jandan.net/p/author/majer</author>
-      <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
