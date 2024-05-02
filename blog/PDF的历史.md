@@ -5,7 +5,7 @@ date: 2023-12-06
 authors:
   - link: https://jandan.net/p/author/bali
     name: BALI
-    avatar: https://raw.githubusercontent.com/scillidan/private_cos_others/main/avater/jin_grey.png
+    avatar: https://raw.githubusercontent.com/scillidan/private_cos_cache/main/avater/jin.png
 source: https://jandan.net/p/114987
 origauthor: Sensible Blog
 origsource: https://www.sensible.so/blog/history-of-the-pdf

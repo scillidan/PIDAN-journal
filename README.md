@@ -6,7 +6,7 @@ Build with [Retype](https://retype.com/). I used it to archived and view some po
 
 - [MarkDownload - Markdown Web Clipper](https://github.com/deathau/markdownload)
 - [waifu2x - Snowshell](https://github.com/YukihoAA/waifu2x_snowshell)
-- [GIF Compressor](https://github.com/shawnrivers/gif-compressor) [x] [ScreenToGif](https://www.screentogif.com)
+- [GIF Compressor](https://github.com/shawnrivers/gif-compressor) †	[ScreenToGif](https://www.screentogif.com)
 
 ## Screenshot
 
