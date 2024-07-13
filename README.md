@@ -2,6 +2,20 @@
 
 Build with [Retype](https://retype.com/). I used it to archived and view some posts I have read. Also include some comments.
 
+## Start
+
+```sh
+pnpm add -g retypeapp
+```
+
+```sh
+retype watch
+```
+
+```sh
+retype build
+```
+
 ## Tools
 
 - [MarkDownload - Markdown Web Clipper](https://github.com/deathau/markdownload)
@@ -11,6 +25,10 @@ Build with [Retype](https://retype.com/). I used it to archived and view some po
 ## Screenshot
 
 ![](https://raw.githubusercontent.com/scillidan/private_cos/main/screenshot/PIDAN-journal.png)
+
+## Reference
+
+- [how customize the css](https://github.com/retypeapp/retype/issues/610)
 
 ## Todo
 

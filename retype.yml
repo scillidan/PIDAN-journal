@@ -18,6 +18,7 @@ links:
 #   icon: comment-discussion
 #   target: blank
 exclude:
+  - ".*"
   - "trash/"
   - "docs/"
   - "notes.sqlite"

@@ -1,3 +1,7 @@
+.font-body {
+    font-family: "LXGW WenKai GB";
+    font-style: normal;
+}
 .docs-markdown table th:nth-child(3),
 td:nth-child(3),
 th:nth-child(4),

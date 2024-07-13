@@ -47,7 +47,7 @@ PIDAN (academic) journal
 | 2021-06-17 | :icon-moon:          | jandan.net   | majer       | [无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃](./blog/"无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃") |
 | 2020-07-31 | :icon-moon:          | jandan.net   | icosohedral | [地球气候的自然变化方式，以及我们是否应该对全球变暖负责](./blog/"地球气候的自然变化方式，以及我们是否应该对全球变暖负责") |
 | 2020-05-09 | :icon-moon:          | jandan.net   | icosohedral | [“我们家门口”的黑洞](./blog/"“我们家门口”的黑洞") |
-| 2024-03-13 | :icon-accessibility: | jandan.net   | BALI        | [疯狂的石头: 治疗狂犬病的“万能良药”](./blog/"疯狂的石头: 治疗狂犬病的“万能良药”") |
+| 2024-03-13 | :icon-accessibility: | jandan.net   | BALI        | [疯狂的石头：治疗狂犬病的“万能良药”](./blog/"疯狂的石头：治疗狂犬病的“万能良药”") |
 | 2023-12-31 | :icon-accessibility: | jandan.net   | BALI        | [美国人不懂中国豆腐](./blog/"美国人不懂中国豆腐") |
 | 2023-12-27 | :icon-accessibility: | jandan.net   | chaozaiji   | [真的是“条条大路通罗马”吗？](./blog/"真的是“条条大路通罗马”吗？") |
 | 2023-03-08 | :icon-accessibility: | jandan.net   | BALI        | [长期新冠现在看起来像一种神经系统疾病](./blog/"长期新冠现在看起来像一种神经系统疾病") |
@@ -70,10 +70,12 @@ PIDAN (academic) journal
 | 2020-06-09 | :icon-accessibility: | bigbigfinger | 中立大手指  | [墨索里尼的非志愿绵羊空降兵——72只羊改变现代战争](./blog/"墨索里尼的非志愿绵羊空降兵——72只羊改变现代战争") |
 | 2020-05-31 | :icon-accessibility: | bigbigfinger | 中立大手指  | [新中国最后的火魔法师：气仙人严新传奇](./blog/"新中国最后的火魔法师：气仙人严新传奇") |
 | 2017-06-25 | :icon-accessibility: | jandan.net   | 中立大手指  | [1918年，爱因斯坦化解了科学史上最大的人质危机](./blog/"1918年，爱因斯坦化解了科学史上最大的人质危机") |
+| 2024-06-26 | :icon-italic:        | jandan.net   | icosohedral | [无聊者的无尽烦恼](./blog/"无聊者的无尽烦恼") |
 | 2021-05-15 | :icon-italic:        | jandan.net   | icosohedral | [斯宾诺莎悖论：一位无神论者眼中的上帝](./blog/"斯宾诺莎悖论：一位无神论者眼中的上帝") |
 | 2020-11-19 | :icon-italic:        | jandan.net   | icosohedral | [孤独引领我们走向何方？](./blog/"孤独引领我们走向何方？") |
 | 2020-09-07 | :icon-italic:        | jandan.net   | icosohedral | [叔本华的小确幸](./blog/"叔本华的小确幸") |
 | 2020-07-15 | :icon-italic:        | jandan.net   | icosohedral | [海德格尔与卡尔纳普的爱恨情仇](./blog/"海德格尔与卡尔纳普的爱恨情仇") |
+| 2024-06-06 | :icon-code-square:   | jandan.net   | BALI        | [数学：构筑现代世界的基石](./blog/"数学：构筑现代世界的基石") |
 | 2023-12-06 | :icon-code-square:   | jandan.net   | BALI        | [PDF的历史](./blog/"PDF的历史") |
 | 2022-11-02 | :icon-code-square:   | jandan.net   | BALI        | [人工智能、艺术家和图像的未来](./blog/"人工智能、艺术家和图像的未来") |
 | 2021-09-16 | :icon-code-square:   | jandan.net   | majer       | [相比人类，复制蜻蜓大脑的人工神经网络为何更有价值](./blog/"相比人类，复制蜻蜓大脑的人工神经网络为何更有价值") |
