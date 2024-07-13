@@ -4,9 +4,23 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>无聊者的无尽烦恼</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/无聊者的无尽烦恼/</guid>
+      <description>无聊既是因，也是果。通过实用智慧和专注实践，我们可以找到克服无聊的方法。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>数学：构筑现代世界的基石</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/数学构筑现代世界的基石/</guid>
+      <description>数学不仅是科学发现的先导，更是工业革命和现代社会的基石。从几何计算到社会数学，再到现代科学的兴起，数学的应用贯穿了整个现代世界的构建过程。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>疯狂的石头：治疗狂犬病的“万能良药”</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/疯狂的石头治疗狂犬病的万能良药/</guid>
@@ -132,20 +146,6 @@
       <description>蜜蜂和黄蜂不像数学家，但它们能用几何学解决建筑难题。</description>
       <author>BALI - https://jandan.net/p/author/bali</author>
       <pubDate>Sat, 29 Jul 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>有鸟用防鸟刺筑巢以防御其他鸟类</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/有鸟用防鸟刺筑巢以防御其他鸟类/</guid>
-      <description>喜鹊和乌鸦正在利用从建筑物上搜集来的防鸟刺来筑巢。</description>
-      <author>Diehard - http://i.jandan.net/p/author/Diehard</author>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>池塘和湖泊的区别在哪</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/池塘和湖泊的区别在哪/</guid>
-      <description>你是否曾经看着一片水域并思考：这是一个美丽的池塘还是一个壮丽的湖泊？它们之间到底有什么区别？</description>
-      <author>bali - http://i.jandan.net/p/author/bali</author>
-      <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
