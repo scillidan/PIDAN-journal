@@ -47,6 +47,7 @@ PIDAN (academic) journal
 | 2021-06-17 | :icon-moon:          | jandan.net   | majer       | [无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃](./blog/"无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃") |
 | 2020-07-31 | :icon-moon:          | jandan.net   | icosohedral | [地球气候的自然变化方式，以及我们是否应该对全球变暖负责](./blog/"地球气候的自然变化方式，以及我们是否应该对全球变暖负责") |
 | 2020-05-09 | :icon-moon:          | jandan.net   | icosohedral | [“我们家门口”的黑洞](./blog/"“我们家门口”的黑洞") |
+| 2024-07-16 | :icon-accessibility: | jandan.net   | BALI        | [从长远来看，人类历史大部分都很糟糕](./blog/"从长远来看，人类历史大部分都很糟糕") |
 | 2024-03-13 | :icon-accessibility: | jandan.net   | BALI        | [疯狂的石头：治疗狂犬病的“万能良药”](./blog/"疯狂的石头：治疗狂犬病的“万能良药”") |
 | 2023-12-31 | :icon-accessibility: | jandan.net   | BALI        | [美国人不懂中国豆腐](./blog/"美国人不懂中国豆腐") |
 | 2023-12-27 | :icon-accessibility: | jandan.net   | chaozaiji   | [真的是“条条大路通罗马”吗？](./blog/"真的是“条条大路通罗马”吗？") |
@@ -80,5 +81,6 @@ PIDAN (academic) journal
 | 2022-11-02 | :icon-code-square:   | jandan.net   | BALI        | [人工智能、艺术家和图像的未来](./blog/"人工智能、艺术家和图像的未来") |
 | 2021-09-16 | :icon-code-square:   | jandan.net   | majer       | [相比人类，复制蜻蜓大脑的人工神经网络为何更有价值](./blog/"相比人类，复制蜻蜓大脑的人工神经网络为何更有价值") |
 | 2021-04-26 | :icon-code-square:   | jandan.net   | majer       | [Ziv与他的无损压缩算法](./blog/"Ziv与他的无损压缩算法") |
+| 2024-07-28 | :icon-tools:         | jandan.net   | BALI        | [如何保存纸质照片](./blog/"如何保存纸质照片") |
 | 2023-08-01 | :icon-tools:         | jandan.net   | BALI        | [在人造卫星发明之前，人们是如何制作地图的](./blog/"在人造卫星发明之前，人们是如何制作地图的") |
 | 2021-06-05 | :icon-tools:         | jandan.net   | BISK        | [闭门造船：如何设计一艘21世纪的帆船](./blog/"闭门造船：如何设计一艘21世纪的帆船") |
