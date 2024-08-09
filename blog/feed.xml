@@ -4,9 +4,23 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>如何保存纸质照片</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/如何保存纸质照片/</guid>
+      <description>保护家族照片，让它们的故事代代相传。本文提供详细方法。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>从长远来看，人类历史大部分都很糟糕</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/从长远来看人类历史大部分都很糟糕/</guid>
+      <description>从旧石器时代的工具到现代科技，人类历史展示了技术进步和生活水平的巨大变化。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>无聊者的无尽烦恼</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/无聊者的无尽烦恼/</guid>
@@ -132,20 +146,6 @@
       <description>在那个命中注定的小行星撞击地球之前，"可怕的蜥蜴"们的生活是美好的。</description>
       <author>BALI - https://jandan.net/p/author/bali</author>
       <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>在人造卫星发明之前，人们是如何制作地图的</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/在人造卫星发明之前人们是如何制作地图的/</guid>
-      <description>地图制作的历史是人类探索数百年的尝试和错误。地图随着新的重要信息而发展，但也保留了关于想象中的怪物和地方的特征。</description>
-      <author>BALI - https://jandan.net/p/author/bali</author>
-      <pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>蜂巢里的几何学</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/蜂巢里的几何学/</guid>
-      <description>蜜蜂和黄蜂不像数学家，但它们能用几何学解决建筑难题。</description>
-      <author>BALI - https://jandan.net/p/author/bali</author>
-      <pubDate>Sat, 29 Jul 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
