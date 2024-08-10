@@ -24,7 +24,7 @@ retype build
 
 ## Screenshot
 
-![](https://raw.githubusercontent.com/scillidan/private_cos/main/screenshot/PIDAN-journal.png)
+![](https://raw.githubusercontent.com/scillidan/Cos_Asset/master/screenshot/PIDAN-journal.png)
 
 ## Reference
 
