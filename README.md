@@ -2,27 +2,24 @@
 
 Build with [Retype](https://retype.com/). I used it to archived and view some posts I have read. Also include some comments.
 
-## Start
+Start with:
 
 ```sh
 pnpm add -g retypeapp
-```
-
-```sh
 retype watch
 ```
+
+Build:
 
 ```sh
 retype build
 ```
 
-## Tools
+Some used tools:
 
 - [MarkDownload - Markdown Web Clipper](https://github.com/deathau/markdownload)
 - [waifu2x - Snowshell](https://github.com/YukihoAA/waifu2x_snowshell)
-- [GIF Compressor](https://github.com/shawnrivers/gif-compressor) †	[ScreenToGif](https://www.screentogif.com)
-
-## Screenshot
+- [GIF Compressor](https://github.com/shawnrivers/gif-compressor)
 
 ![](https://raw.githubusercontent.com/scillidan/Cos_Asset/master/screenshot/PIDAN-journal.png)
 

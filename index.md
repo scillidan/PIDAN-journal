@@ -84,3 +84,4 @@ PIDAN (academic) journal
 | 2024-07-28 | :icon-tools:         | jandan.net   | BALI        | [如何保存纸质照片](./blog/"如何保存纸质照片") |
 | 2023-08-01 | :icon-tools:         | jandan.net   | BALI        | [在人造卫星发明之前，人们是如何制作地图的](./blog/"在人造卫星发明之前，人们是如何制作地图的") |
 | 2021-06-05 | :icon-tools:         | jandan.net   | BISK        | [闭门造船：如何设计一艘21世纪的帆船](./blog/"闭门造船：如何设计一艘21世纪的帆船") |
+| 2015-08-16 | :icon-tools:         | jandan.net   | 回风         | [Deploy Hexo sites to VPS](./blog/"Deploy-Hexo-sites-to-VPS") |
