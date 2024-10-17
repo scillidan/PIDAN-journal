@@ -5,7 +5,7 @@ date: 2015-08-16
 authors: 
   - link: 
     name: 回风
-    avatar: https://raw.githubusercontent.com/scillidan/Cos_Cache/master/avater/jin.png
+    avatar: https://raw.githubusercontent.com/scillidan/PIDAN-journal/main/asset/yafa.png
 origauthor: 
 origsource: 
 order: 20150816

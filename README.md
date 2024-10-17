@@ -15,7 +15,7 @@ Build:
 retype build
 ```
 
-![](https://raw.githubusercontent.com/scillidan/Cos_Asset/master/screenshot/PIDAN-journal.png)
+![](https://raw.githubusercontent.com/scillidan/asset/main/screenshot/PIDAN-journal.png)
 
 ## Reference
 
