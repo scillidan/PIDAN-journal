@@ -47,6 +47,7 @@ PIDAN (academic) journal
 | 2021-06-17 | :icon-moon:          | jandan.net   | majer       | [无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃](./blog/"无人机坠入保护区惊吓燕鸥，致3000枚鸟蛋被遗弃") |
 | 2020-07-31 | :icon-moon:          | jandan.net   | icosohedral | [地球气候的自然变化方式，以及我们是否应该对全球变暖负责](./blog/"地球气候的自然变化方式，以及我们是否应该对全球变暖负责") |
 | 2020-05-09 | :icon-moon:          | jandan.net   | icosohedral | [“我们家门口”的黑洞](./blog/"“我们家门口”的黑洞") |
+| 2019-10-26 | :icon-moon:          | scillidan    | scillidan   | [北欧风木材选购指南](./blog/"北欧风木材选购指南") |
 | 2024-07-16 | :icon-accessibility: | jandan.net   | BALI        | [从长远来看，人类历史大部分都很糟糕](./blog/"从长远来看，人类历史大部分都很糟糕") |
 | 2024-03-13 | :icon-accessibility: | jandan.net   | BALI        | [疯狂的石头：治疗狂犬病的“万能良药”](./blog/"疯狂的石头：治疗狂犬病的“万能良药”") |
 | 2023-12-31 | :icon-accessibility: | jandan.net   | BALI        | [美国人不懂中国豆腐](./blog/"美国人不懂中国豆腐") |
