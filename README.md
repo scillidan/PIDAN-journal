@@ -15,8 +15,6 @@ Build:
 retype build
 ```
 
-![](https://raw.githubusercontent.com/scillidan/asset/main/screenshot/PIDAN-journal.png)
-
 ## Reference
 
 - [how customize the css](https://github.com/retypeapp/retype/issues/610)
