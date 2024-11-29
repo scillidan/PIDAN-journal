@@ -10,7 +10,7 @@ source: https://jandan.net/p/114987
 origauthor: Sensible Blog
 origsource: https://www.sensible.so/blog/history-of-the-pdf
 order: 20231206
-icon: squirrel
+icon: code-square
 ---
 
 你上次点击一个链接，发现自己正在打开一个PDF文件，却没有痛苦地叹气是什么时候？

@@ -50,6 +50,8 @@ PIDAN (academic) journal
 | 2019-10-26 | :icon-moon:          | scillidan    | scillidan   | [北欧风木材选购指南](./blog/"北欧风木材选购指南") |
 | 2024-07-16 | :icon-accessibility: | jandan.net   | BALI        | [从长远来看，人类历史大部分都很糟糕](./blog/"从长远来看，人类历史大部分都很糟糕") |
 | 2024-03-13 | :icon-accessibility: | jandan.net   | BALI        | [疯狂的石头：治疗狂犬病的“万能良药”](./blog/"疯狂的石头：治疗狂犬病的“万能良药”") |
+| 2024-02-20 | :icon-accessibility: | sspai.com    | SUNTRISE    | [「#」号的补充历史：比想象的要复杂得多](./blog/"「#」号的补充历史：比想象的要复杂得多") |
+| 2024-01-02 | :icon-accessibility: | jandan.net   | chaozaiji   | [饺子的全球史](./blog/"饺子的全球史") |
 | 2023-12-31 | :icon-accessibility: | jandan.net   | BALI        | [美国人不懂中国豆腐](./blog/"美国人不懂中国豆腐") |
 | 2023-12-27 | :icon-accessibility: | jandan.net   | chaozaiji   | [真的是“条条大路通罗马”吗？](./blog/"真的是“条条大路通罗马”吗？") |
 | 2023-03-08 | :icon-accessibility: | jandan.net   | BALI        | [长期新冠现在看起来像一种神经系统疾病](./blog/"长期新冠现在看起来像一种神经系统疾病") |
@@ -83,6 +85,7 @@ PIDAN (academic) journal
 | 2021-09-16 | :icon-code-square:   | jandan.net   | majer       | [相比人类，复制蜻蜓大脑的人工神经网络为何更有价值](./blog/"相比人类，复制蜻蜓大脑的人工神经网络为何更有价值") |
 | 2021-04-26 | :icon-code-square:   | jandan.net   | majer       | [Ziv与他的无损压缩算法](./blog/"Ziv与他的无损压缩算法") |
 | 2024-07-28 | :icon-tools:         | jandan.net   | BALI        | [如何保存纸质照片](./blog/"如何保存纸质照片") |
+| 2024-01-02 | :icon-tools:         | sspai.com    | 楚庭孤客    | [面对扫码抽奖骗局，我用两天挽回损失](./blog/"面对扫码抽奖骗局，我用两天挽回损失") |
 | 2023-08-01 | :icon-tools:         | jandan.net   | BALI        | [在人造卫星发明之前，人们是如何制作地图的](./blog/"在人造卫星发明之前，人们是如何制作地图的") |
 | 2021-06-05 | :icon-tools:         | jandan.net   | BISK        | [闭门造船：如何设计一艘21世纪的帆船](./blog/"闭门造船：如何设计一艘21世纪的帆船") |
 | 2015-08-16 | :icon-tools:         | jandan.net   | 回风         | [Deploy Hexo sites to VPS](./blog/"Deploy-Hexo-sites-to-VPS") |
