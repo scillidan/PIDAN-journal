@@ -48,6 +48,8 @@ PIDAN (academic) journal
 | 2020-07-31 | :icon-moon:          | jandan.net   | icosohedral | [地球气候的自然变化方式，以及我们是否应该对全球变暖负责](./blog/"地球气候的自然变化方式，以及我们是否应该对全球变暖负责") |
 | 2020-05-09 | :icon-moon:          | jandan.net   | icosohedral | [“我们家门口”的黑洞](./blog/"“我们家门口”的黑洞") |
 | 2019-10-26 | :icon-moon:          | scillidan    | scillidan   | [北欧风木材选购指南](./blog/"北欧风木材选购指南") |
+| 2024-10-25 | :icon-accessibility: | fermi.ink    | Fermi       | [内容行业的内幕](./blog/"内容行业的内幕") |
+| 2024-09-27 | :icon-accessibility: | fermi.ink    | Fermi       | [如何拍出爆款视频](./blog/"如何拍出爆款视频") |
 | 2024-07-16 | :icon-accessibility: | jandan.net   | BALI        | [从长远来看，人类历史大部分都很糟糕](./blog/"从长远来看，人类历史大部分都很糟糕") |
 | 2024-03-13 | :icon-accessibility: | jandan.net   | BALI        | [疯狂的石头：治疗狂犬病的“万能良药”](./blog/"疯狂的石头：治疗狂犬病的“万能良药”") |
 | 2024-02-20 | :icon-accessibility: | sspai.com    | SUNTRISE    | [「#」号的补充历史：比想象的要复杂得多](./blog/"「#」号的补充历史：比想象的要复杂得多") |
