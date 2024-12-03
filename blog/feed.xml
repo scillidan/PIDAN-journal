@@ -4,9 +4,23 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>内容行业的内幕</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/内容行业的内幕/</guid>
+      <description>有一个行业，这些年蒸蒸日上，快速增长，加入的人越来越多。</description>
+      <author>Fermi - https://fermi.ink/about/</author>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何拍出爆款视频</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/如何拍出爆款视频/</guid>
+      <description>MrBeast 是美国第一网红，可能也是世界第一网红。他是 Youtube 订阅者最多的频道，2024年9月拥有3.17亿粉丝。</description>
+      <author>Fermi - https://fermi.ink/about/</author>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>如何保存纸质照片</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/如何保存纸质照片/</guid>
@@ -132,20 +146,6 @@
       <description>乔治·沃尔德 于1970年</description>
       <author>BALI - https://jandan.net/p/author/bali</author>
       <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>毛毛虫是如何变成美丽蝴蝶的</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/毛毛虫是如何变成美丽蝴蝶的/</guid>
-      <description>从毛毛虫这样卑微的开始，这些昆虫经历了一次惊人的变态，将它们变成了大自然中最优雅的生物之一。</description>
-      <author>BALI - https://jandan.net/p/author/bali</author>
-      <pubDate>Thu, 16 Nov 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>动物是如何进化出飞行能力的</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/动物是如何进化出飞行能力的/</guid>
-      <description>哪个先出现：飞行的恐龙还是鸟类？</description>
-      <author>BALI - https://jandan.net/p/author/bali</author>
-      <pubDate>Sun, 22 Oct 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
