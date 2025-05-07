@@ -4,9 +4,16 @@
     <title>Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
     <description>Blog</description>
-    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 GMT</lastBuildDate>
     <generator>https://retype.com</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>猪肉禁忌的起源</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/猪肉禁忌的起源/</guid>
+      <description>猪肉占全球肉类三分之一，却被20亿人视为禁忌。从古近东的猪宴到宗教禁令，这篇文章揭秘人类如何因经济、环境与身份认同，逐渐疏远这一多产的动物。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>内容行业的内幕</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/内容行业的内幕/</guid>
@@ -139,13 +146,6 @@
       <description>你上次点击一个链接，发现自己正在打开一个PDF文件，却没有痛苦地叹气是什么时候？</description>
       <author>BALI - https://jandan.net/p/author/bali</author>
       <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>死亡的起源</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/死亡的起源/</guid>
-      <description>乔治·沃尔德 于1970年</description>
-      <author>BALI - https://jandan.net/p/author/bali</author>
-      <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
