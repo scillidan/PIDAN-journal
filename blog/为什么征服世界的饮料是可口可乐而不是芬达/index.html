@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/PIDAN-journal">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.799921199843">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.0.803285834300">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.8.1">
+    <meta name="generator" content="Retype 3.10.0">
 
     <!-- Primary Meta Tags -->
     <title>为什么征服世界的饮料是可口可乐而不是芬达？</title>
@@ -32,29 +32,29 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Blog >> Feed" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml">
 
-    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.8.1.799921199843" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.10.0.803285834300" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.799921199843" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.799921199843" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.10.0.803285834300" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.10.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.10.0.803285834300" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/scillidan/fonts@latest/serve/lxgw-wenkai-gb.css">
     <link href="static/user.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
-        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+    <div id="retype-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
             <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
                 <!-- Mobile menu button skeleton -->
-                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
-                <div v-cloak id="docs-sidebar-toggle"></div>
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
         
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-xl">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
                             <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑</span>
                         </a>
                     </div>
@@ -64,13 +64,13 @@
         
                 <div class="flex justify-between md:grow">
                     <!-- Top Nav -->
-                    <nav class="hidden md:flex">
+                    <nav id="retype-header-nav" class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
                                 <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
-                                            <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"/>
+                                            <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
                                         </g>
                                     </svg>
                                     <span>Source</span>
@@ -116,7 +116,7 @@
                     </div>
         
                     <div v-cloak class="flex justify-end grow">
-                        <div id="docs-mobile-search-button"></div>
+                        <div id="retype-mobile-search-button"></div>
                         <doc-search-desktop></doc-search-desktop>
         
                         <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
@@ -164,7 +164,7 @@
                                             <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                     <g fill="currentColor">
-                                                        <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"/>
+                                                        <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
                                                     </g>
                                                 </svg>
                                                 <span>Source</span>
@@ -198,9 +198,9 @@
                 <!-- Render page content -->
                 <div class="grow min-w-0 px-6">
                     <main class="relative pt-6 pb-16">
-                        <div class="docs-markdown" id="docs-content">
+                        <div class="retype-markdown" id="retype-content">
                             <!-- Rendered if sidebar right is enabled -->
-                            <div id="docs-sidebar-right-toggle"></div>
+                            <div id="retype-sidebar-right-toggle"></div>
                             <!-- Page content  -->
 <doc-anchor-target id="为什么征服世界的饮料是可口可乐而不是芬达" class="break-words">
     <h1>
@@ -208,7 +208,7 @@
         <span>为什么征服世界的饮料是可口可乐而不是芬达？</span>
     </h1>
 </doc-anchor-target>
-<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center print:justify-center">
     <div class="flex items-center">
         <div>By</div>
         <div class="ml-2 flex items-center">
@@ -223,60 +223,60 @@
 </div>
 
 <p><figure class="content-center">
-    <img src="media/bigbigfinger_20200619_00.jpg" alt="">
+    <img src="media/bigbigfinger_20200619_00.jpg" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>一切都要从八十年前说起。</p>
 <p>虽然可口可乐如今风靡全球，但直到上世纪四十年代，全世界大部分地方还不太买这种饮料的账。第二次世界大战爆发之前，可口可乐在国际舞台上取得的唯一成就是在纳粹德国的装瓶业务。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_01.jpg" alt="纳粹时期的可乐海报">
+    <img src="../media/bigbigfinger_20200619_01.jpg" alt="纳粹时期的可乐海报" />
     <figcaption class="caption">纳粹时期的可乐海报</figcaption>
 </figure>
 </p>
 <p>1929年，美国人雷布斯（Ray Powers）把可口可乐带去了德国。他努力工作，他雄心勃勃，到了1933年，可口可乐在德国的销量已经从最初的每年6000箱提升到每年10万箱。在一战结束后那段混乱的时期里，雷布斯的事业可谓非常成功，但和一路混成了国家元首的那个、那个德国民族社会主义工人党党魁阿道夫·希特勒比起来还是逊色多了。</p>
 <p>好多人都知道希特勒，这个很坏（好坏，好坏，超级坏）的大坏蛋上台之后推行纳粹主义，反美成为德国舆论的主流。一些纳粹五毛没日没夜的宣传美国“想要把德国变成殖民地”，让人民群众相信一切不如意都是美帝国主义捣的鬼。在这种民族主义和反美情绪爆棚的情况下，可口可乐的销售似乎将陷入非常不利的境地。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_02.jpg" alt="觉得美国好坏的人请举手">
+    <img src="../media/bigbigfinger_20200619_02.jpg" alt="觉得美国好坏的人请举手" />
     <figcaption class="caption">觉得美国好坏的人请举手</figcaption>
 </figure>
 </p>
 <p>但事实却并非如此。1938年，可口可乐在德国的销售进一步扩张，共有43家装瓶厂和600多家本地分销商，销量又比去年翻了一番。这不是因为可口可乐中的咖啡因让德国人欲罢不能，而是因为精明的雷布斯找到了一个从源头解决矛盾的办法——如果没人知道可口可乐是美国货，不就没人会抵制了吗？</p>
 <p>深谙纳粹式洗脑策略的雷布斯，开始通过所有的传播渠道来促使可口可乐的形象本土化，并尽可能的加强可乐品牌与纳粹之间的紧密联系。如果一本杂志的封面是希特勒，那么封底一定是可口可乐，如果一张报纸的上半截是纳粹海报，那么下半截肯定是可口可乐。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_03.jpg" alt="连可乐瓶垫子也要纳粹化">
+    <img src="../media/bigbigfinger_20200619_03.jpg" alt="连可乐瓶垫子也要纳粹化" />
     <figcaption class="caption">连可乐瓶垫子也要纳粹化</figcaption>
 </figure>
 </p>
 <p>除了铺天盖地的广告之外，可口可乐还大量参与纳粹党的各种活动，比如为希特勒青年团的集会伴游卡车，或者赞助纳粹举办的各种展览；甚至纳粹德国最著名的口号“一个民族，一个帝国，一个元首” ，也被可口可乐改成了“一个民族，一个帝国，一杯可乐”。总之就是各种跪舔，恨不得在勃兰登堡门上架起高音喇叭，天天歌颂慈父希特勒是德国人民的大救星。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_04.jpg" alt="不喝不是德国人！">
+    <img src="../media/bigbigfinger_20200619_04.jpg" alt="不喝不是德国人！" />
     <figcaption class="caption">不喝不是德国人！</figcaption>
 </figure>
 </p>
 <p>当希特勒青年团坐着印有“可口可乐”字样的卡车，喝着清爽的免费可乐参加反美大会时，谁会相信这浓眉大眼的瓶子里装的竟然是美国舶来的反革命？可见这家企业对民族社会主义核心价值观的贯彻，比不远万里从美国运来的可乐糖浆还要浓厚许多。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_05.jpg" alt="爱元首更爱可乐的纳粹青年">
+    <img src="../media/bigbigfinger_20200619_05.jpg" alt="爱元首更爱可乐的纳粹青年" />
     <figcaption class="caption">爱元首更爱可乐的纳粹青年</figcaption>
 </figure>
 </p>
 <p>就像您可能不知道可口可乐来自于爱尔兰而不是美国品牌一样，雷布斯用他伟大的营销手段成功忽悠了德国人，让德国大众相信可口可乐是值得他们骄傲的国货精品。1936年柏林奥运会举办时，可口可乐是三大主要赞助商之一，希特勒则是世界各国面前最骄傲的主持人。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_06.jpg" alt="屠杀犹太人的效率要：更高，更快，更强">
+    <img src="../media/bigbigfinger_20200619_06.jpg" alt="屠杀犹太人的效率要：更高，更快，更强" />
     <figcaption class="caption">屠杀犹太人的效率要：更高，更快，更强</figcaption>
 </figure>
 </p>
 <p>不好意思刚才键盘输入出了点问题，可口可乐的确是100%的美国品牌。如果这个小小的键盘故障就让您对可乐的发源地产生了些怀疑，也证明了宣传媒体想歪曲事实其实是多么容易的一件事。</p>
 <p>要知道，那是一个没有google和维基百科的时代，从旁人的嘴里你很难搞清楚一个新玩意的来龙去脉。当半路上忽然跳出个推销员请你品尝一瓶冒着气泡的古怪汽水，尤其是他身后海报上的可乐Logo正舒舒服服的躺在纳粹万字标旁边——作为一个爱国心炸裂的青年纳粹冲锋队员，你的第一反应肯定是“哎哟我大德意志第三帝国的最新发明万岁”。如果你想的是“这么好喝可能是美帝国主义的糖衣炮弹”那就赶快滚，我们党卫军喜欢不怕死的大头炮灰，不需要你这么精明的小伙儿。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_07.jpg" alt="聪明的德国小伙都去了哪？">
+    <img src="../media/bigbigfinger_20200619_07.jpg" alt="聪明的德国小伙都去了哪？" />
     <figcaption class="caption">聪明的德国小伙都去了哪？</figcaption>
 </figure>
 </p>
 <p>雷布斯的耍猴战略为可口可乐赢得了发展空间，但这款饮料在纳粹德国的命运最终还是取决于希特勒的态度。虽然帝国官员相信这种东西对于德国人来说太无聊了，然而美国性质的产品，比如财富和华而不实的梦想等，对全世界民众都有着不同寻常的吸引力，就连希特勒也不能免俗。</p>
 <p>尽管在各个方面都使劲忽悠德国人讨厌美国，希特勒本人却是美国大众消费的倡导者，并欢迎美国的高效生产方式。可口可乐现代化的统一生产让希特勒印象深刻，我们的元首也需要一个产品来宣传纳粹制度无以伦比的高效率。于是两者一拍即合，可口可乐在纳粹上台后几乎立刻就学会将其利益与德国统治者的利益结合起来，甚至完成了一个不可能的任务，即作为一个美国公司在德国完整的保存到战争结束。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_08.jpg" alt="连开瓶器都要纳粹化">
+    <img src="../media/bigbigfinger_20200619_08.jpg" alt="连开瓶器都要纳粹化" />
     <figcaption class="caption">连开瓶器都要纳粹化</figcaption>
 </figure>
 </p>
@@ -286,7 +286,7 @@
 <p>雷布斯的努力让可口可乐同纳粹携手走上了第三帝国的康庄大道，但这个创业故事里的每个人都那么不寻常，所以他在1938年的一场车祸中死掉了。</p>
 <p>当雷布斯以被车撞死这种商战剧里最标准也是最狗血的方式退场后，他的助手，本文的男一号，德国人马克思·凯特（Max Keith）接替了他的位置。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_09.jpg" alt="Heil Hitler!">
+    <img src="../media/bigbigfinger_20200619_09.jpg" alt="Heil Hitler!" />
     <figcaption class="caption">Heil Hitler!</figcaption>
 </figure>
 </p>
@@ -295,26 +295,26 @@
 <p>战争总是那么的残酷，我们在电影中见识了许多两兄弟因为战争生离死别甚至手足相残的场景，现在这样的悲情故事即将降临在可口可乐的头上。</p>
 <p>就像小背头马克思那位著名的德国老乡——大背头马克思所言，资本为了追逐理论敢于不择手段。在大洋彼岸的美国，可口可乐公司赋予了可口可乐爱国的形象，并号召大家以可乐为武器，与自由民主的敌人作斗争；而在德国，可口可乐则是元首和第三帝国的坚定支持者，每一瓶可口可乐都是灌满了纳粹意志的手榴弹，不把所有阻碍德意志民族发展的劣等民族炸光不罢休。于是在德国，人们挥着可乐瓶子热爱他们的元首；在美国，人们挥着可乐瓶子热爱他们的自由。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_10.jpg" alt="“我早就说过资本主义的虚伪性”">
+    <img src="../media/bigbigfinger_20200619_10.jpg" alt="“我早就说过资本主义的虚伪性”" />
     <figcaption class="caption">“我早就说过资本主义的虚伪性”</figcaption>
 </figure>
 </p>
 <p>自由民主的口号显然没有外汇来的实际，可口可乐总公司尽管知道德国那边在干啥，但为了更好的产品销量，依然有源源不断的可乐原浆被运去支持纳粹事业。这种灵活的企业战略形成了二战前期世界的一个奇观，即可口可乐同时在纳粹德国和民主美国以本土爱国品牌存在。只是爱国主义的存在从来不是用来套近乎，两瓶可乐争着爱国就像两兄弟争着爱一个女人，最终只能演化成一场手足相残的悲剧。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_11.jpg" alt="老哥，你那瓶美国可乐不如我这瓶德国原产的纯啊！">
+    <img src="../media/bigbigfinger_20200619_11.jpg" alt="老哥，你那瓶美国可乐不如我这瓶德国原产的纯啊！" />
     <figcaption class="caption">老哥，你那瓶美国可乐不如我这瓶德国原产的纯啊！</figcaption>
 </figure>
 </p>
 <p>现在到了解决问题的时候了。二战开始后，美国与纳粹德国之间断绝了一切交流，制造可口可乐最重要的原料——可乐糖浆自然也就没法运到德国。没有了大本营的支持，马克思的公司经营立刻陷入了困境。他必须发明一种新的饮料来继续拥护元首的帝国计划：没错,马克思发明了芬达（Fanta）。</p>
 <p>和你在电影上看到的所有稀奇古怪的纳粹计划一样，芬达的研制也离不开纳粹疯狂科学家的参与：马克思和他的首席化学家Scheteling博士一起，开发出了这种可口可乐的替代品。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_12.jpg" alt="上图可能为纳粹疯狂科学家Scheteling博士">
+    <img src="../media/bigbigfinger_20200619_12.jpg" alt="上图可能为纳粹疯狂科学家Scheteling博士" />
     <figcaption class="caption">上图可能为纳粹疯狂科学家Scheteling博士</figcaption>
 </figure>
 </p>
 <p>战争年代物资紧缺，马克思也摸不清可口可乐熬中药一样的复杂配方，所以他们使用了其他食品行业的遗留产物，包括奶酪生产的副产品乳清，以及苹果酒生产中剩下的苹果纤维。如果你是个黄皮纳粹或者德棍，请一定记住原始芬达只有苹果味，其他各种口味的芬达统统是山寨货，喝的再多也无法体会昔日纳粹帝国的荣光。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_13.jpg" alt="最初的芬达仍然保持着可乐的颜色，以缓解将士们的思乡之情">
+    <img src="../media/bigbigfinger_20200619_13.jpg" alt="最初的芬达仍然保持着可乐的颜色，以缓解将士们的思乡之情" />
     <figcaption class="caption">最初的芬达仍然保持着可乐的颜色，以缓解将士们的思乡之情</figcaption>
 </figure>
 </p>
@@ -322,32 +322,32 @@
 <p>“X你丫的喝芬达的纳粹!”</p>
 <p>&quot;X你丫的山寨我们德意志可口可乐！&quot;</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_14.gif" alt="Heil Fanta！">
+    <img src="../media/bigbigfinger_20200619_14.gif" alt="Heil Fanta！" />
     <figcaption class="caption">Heil Fanta！</figcaption>
 </figure>
 </p>
 <p>抱着引以为豪的可乐被美国人山寨的怒火，德国军队在二战初期所向披靡。由此带来了稍微改变一点历史进程的副作用就是，德国人打到哪，就意味着哪的可乐原浆供应就此中断。所以马克思的手下总是屁颠屁颠跟在党卫军屁股后面，到处接收可乐工场用来改产芬达。如果一个欧洲居民一觉醒来发现原来街边卖可乐的小摊改卖了芬达，真不好意思贵国已沦陷，最好赶快立正行个纳粹礼，免得暗中观察的盖世太保把你扔去喂毒气。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_15.jpg" alt="“卧槽那不是个芬达饮料车吗？”“什么！我大法兰西亡了？”">
+    <img src="../media/bigbigfinger_20200619_15.jpg" alt="“卧槽那不是个芬达饮料车吗？”“什么！我大法兰西亡了？”" />
     <figcaption class="caption">“卧槽那不是个芬达饮料车吗？”“什么！我大法兰西亡了？”</figcaption>
 </figure>
 </p>
 <p>在马克思的领导下，可口可乐（德国）进一步展现了其支持纳粹战争的努力：1943年，芬达总产量达到了创纪录的300万箱。同时马克思也在考虑更好地节约成本以支持纳粹战争，比如像柯达（kodak）公司生产奴隶胶卷那样，使用占领区的犹太奴工来进行芬达的灌装工作。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_16.jpg" alt="还能顺便用犹太人进行车身刷漆工作">
+    <img src="../media/bigbigfinger_20200619_16.jpg" alt="还能顺便用犹太人进行车身刷漆工作" />
     <figcaption class="caption">还能顺便用犹太人进行车身刷漆工作</figcaption>
 </figure>
 </p>
 <p>奴隶芬达工厂挽救了不少犹太人的生命（至少是暂时的），多产几箱芬达就意味着晚几天被送进集中营，也许就能逃脱被做成肥皂的命运。对于那些从辛德勒名单中落选的犹太人而言，能上马克思名单也是保命的一种方式。不管是否出于本意，马克思在这个时期都或多或少的扮演了拯救者的角色，可见自由的可口可乐精神在人类社会最黑暗的角落也能绽放光芒。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_17.jpg" alt="劳动带来芬达！">
+    <img src="../media/bigbigfinger_20200619_17.jpg" alt="劳动带来芬达！" />
     <figcaption class="caption">劳动带来芬达！</figcaption>
 </figure>
 </p>
 <p>纳粹同样没有亏待马克思的效忠，他的公司自始至终都能不受战时配给制度获得超量的糖。在食糖资源紧缺的时候，芬达开始成为德国人民烹饪的调味品，从而进一步打开销路。即使在党国存亡堪忧的阶段，公司的忠诚也没有动摇：1944年，马克思和他的公司仍然生产了200万瓶美味芬达和美味奴隶芬达，销往这个正在盟军的轰炸中退化成瓦砾的国家。</p>
 <p>1944年对于芬达或许还是个不错的年头，但对于纳粹就要糟糕得多。随着苏联那些以伏特加为能源的坦克平A回德国本土，也到了希特勒从他的第三帝国之梦中解脱的时候了。事到如今，只希望希特勒在总理府地下室自杀时能喝上瓶芬达，这样或许能在他的fantasy破灭的时候好受些。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_18.jpg" alt="被不切实际的fantasea冲昏了头脑的希特勒（我P的图蛮乖嘛）">
+    <img src="../media/bigbigfinger_20200619_18.jpg" alt="被不切实际的fantasea冲昏了头脑的希特勒（我P的图蛮乖嘛）" />
     <figcaption class="caption">被不切实际的fantasea冲昏了头脑的希特勒（我P的图蛮乖嘛）</figcaption>
 </figure>
 </p>
@@ -355,7 +355,7 @@
 <p>鉴于德国境内的可乐工厂实际上早就被盟军炸得精光，帝国马克更是一文不值，我们有理由相信是马克思的忠诚而不是这些理论上的资产打动了总公司，总之芬达避免了作为纳粹遗毒被彻底消灭的命运，并被吸纳为可口可乐公司的果味饮料品牌销售至今。</p>
 <p>虽然如今芬达玻璃瓶里灌装的乃自由民主之思想，但高傲的雅利安基因从未彻底流失。也许是受够了寄人篱下的屈辱，2015年，芬达在德国推出75周年纪念广告，希望消费者们和芬达一起回顾“75年前的美好时光“。</p>
 <p><figure class="content-center">
-    <img src="../media/bigbigfinger_20200619_19.gif" alt="一想到75年前芬达就乐">
+    <img src="../media/bigbigfinger_20200619_19.gif" alt="一想到75年前芬达就乐" />
     <figcaption class="caption">一想到75年前芬达就乐</figcaption>
 </figure>
 </p>
@@ -367,9 +367,9 @@
                             <!-- Required only on API pages -->
                             <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
                         </div>
-                        <footer class="clear-both">
+                        <footer id="retype-content-footer" class="clear-both">
                         
-                            <nav class="flex mt-14">
+                            <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                 <div class="w-1/2">
                                     <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../blog/墨索里尼的非志愿绵羊空降兵72只羊改变现代战争/">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
@@ -408,7 +408,7 @@
                         <div class="docs-copyright pt-3 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
                     </div>
                 
-                    <div class="flex sm:justify-center">
+                    <div class="flex justify-center">
                         <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
                             <span class="text-xs whitespace-nowrap">Powered by</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
@@ -423,7 +423,7 @@
     </div>
 
 
-    <div id="docs-overlay-target"></div>
+    <div id="retype-overlay-target"></div>
 
     <script data-cfasync="false">window.__DOCS__ = { "title": "为什么征服世界的饮料是可口可乐而不是芬达？", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>

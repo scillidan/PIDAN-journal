@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/PIDAN-journal">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.799921199843">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.0.803285834300">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.8.1">
+    <meta name="generator" content="Retype 3.10.0">
 
     <!-- Primary Meta Tags -->
     <title>《钢之炼金术师》中「烧瓶里的小人」到底是什么东西？</title>
@@ -34,29 +34,29 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Blog >> Feed" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml">
 
-    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.8.1.799921199843" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.10.0.803285834300" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.799921199843" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.799921199843" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.10.0.803285834300" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.10.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.10.0.803285834300" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/scillidan/fonts@latest/serve/lxgw-wenkai-gb.css">
     <link href="static/user.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
-        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+    <div id="retype-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
             <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
                 <!-- Mobile menu button skeleton -->
-                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
-                <div v-cloak id="docs-sidebar-toggle"></div>
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
         
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-xl">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
                             <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑</span>
                         </a>
                     </div>
@@ -66,13 +66,13 @@
         
                 <div class="flex justify-between md:grow">
                     <!-- Top Nav -->
-                    <nav class="hidden md:flex">
+                    <nav id="retype-header-nav" class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
                                 <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
-                                            <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"/>
+                                            <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
                                         </g>
                                     </svg>
                                     <span>Source</span>
@@ -118,7 +118,7 @@
                     </div>
         
                     <div v-cloak class="flex justify-end grow">
-                        <div id="docs-mobile-search-button"></div>
+                        <div id="retype-mobile-search-button"></div>
                         <doc-search-desktop></doc-search-desktop>
         
                         <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
@@ -166,7 +166,7 @@
                                             <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                     <g fill="currentColor">
-                                                        <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"/>
+                                                        <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
                                                     </g>
                                                 </svg>
                                                 <span>Source</span>
@@ -200,9 +200,9 @@
                 <!-- Render page content -->
                 <div class="grow min-w-0 px-6">
                     <main class="relative pt-6 pb-16">
-                        <div class="docs-markdown" id="docs-content">
+                        <div class="retype-markdown" id="retype-content">
                             <!-- Rendered if sidebar right is enabled -->
-                            <div id="docs-sidebar-right-toggle"></div>
+                            <div id="retype-sidebar-right-toggle"></div>
                             <!-- Page content  -->
 <doc-anchor-target id="钢之炼金术师中烧瓶里的小人到底是什么东西" class="break-words">
     <h1>
@@ -210,7 +210,7 @@
         <span>《钢之炼金术师》中「烧瓶里的小人」到底是什么东西？</span>
     </h1>
 </doc-anchor-target>
-<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center print:justify-center">
     <div class="flex items-center">
         <div>By</div>
         <div class="ml-2 flex items-center">
@@ -227,7 +227,7 @@
 <p>瓶中小人或烧瓶里的小人，即十六世纪的炼金术师帕拉塞尔苏斯所说的homunculus，在拉丁语中意为“小人”，指的是一个微型的、完全成形的人。</p>
 <p>在《钢之炼金术师》中登场的人造人霍尔蒙克斯（Homunculus）均是以贤者之石为核心构成的人型生物，并且拥有常人不能想象的能力，其制造者是「父亲」。</p>
 <p><figure class="content-center">
-    <img src="../media/185179_001.webp" alt="">
+    <img src="../media/185179_001.webp" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -235,7 +235,7 @@
 <p>这种将炼金术小人等同于贤哲之石的说法可能源自心理学家卡尔·古斯塔夫·荣格（1875－1961），荣格认为这个概念首次出现在公元三世纪写的《佐西莫斯的幻觉》中：佐西莫斯遇到了一个牧师，他变成了“自己的反面，变成了一个残缺的人形[anthroparion]”；而希腊语中的“anthroparion”与“homunculus”相似，都是“人”的缩小形式。荣格在他的评论中把“小人”等同于贤者之石。</p>
 <p>不过，在《钢炼》中缺乏从原始炼金术文本中看到的那种怪诞而复杂的过程，但它仍然抓住了炼金术和创造炼金小人的核心思想和哲学。它的中心思想是在一个更神圣的力量之外创造生命，但又与之相连。这些生物的创造以贤者之石为中心，而贤者之石又是由人类灵魂的能量混合而成的，因此与更高的力量和灵魂的存在有联系。</p>
 <p><figure class="content-center">
-    <img src="../media/185179_002.webp" alt="瓶中小人">
+    <img src="../media/185179_002.webp" alt="瓶中小人" />
     <figcaption class="caption">瓶中小人</figcaption>
 </figure>
 </p>
@@ -254,7 +254,7 @@
 <p>这种认为精液是在子宫内产生新生命所需的主要成分，而子宫只是一个被动的容器的观点可以追溯到亚里士多德，他是中世纪和古典末期自然科学的主要权威。</p>
 <p>亚里士多德并不认为人类可以在自然的性繁殖和生育模式之外进行人工制造，但他的想法确实留下了这种可能性。如果人类的子宫只是胎儿的一个容器，那么理论上它可以与另一个容器交换，只要使用人类的精液。除了精子之外，人们认为所需要的只是一个温暖的房间和某种原材料，甚至可以是腐烂的肉。</p>
 <p><figure class="content-center">
-    <img src="../media/185179_003.webp" alt="一幅显示精子中的小人的插图（1695）。">
+    <img src="../media/185179_003.webp" alt="一幅显示精子中的小人的插图（1695）。" />
     <figcaption class="caption">一幅显示精子中的小人的插图（1695）。</figcaption>
 </figure>
 </p>
@@ -272,14 +272,14 @@
 <p>在这段时间里，这个生物会变得非常饥饿，所以要给它喂食它被斩首的母亲的血液，持续七天。期间，它应该发育成一个完全成熟的小而怪异的人形，并带有一些人类灵魂的碎片。</p>
 <p>其他配方要求用一只母猴代替，剩下的是用一只身份不明的雌性动物。</p>
 <p><figure class="content-center">
-    <img src="../media/185179_004.webp" alt="小瓶中的小人。约翰·沃尔夫冈·冯·歌德的插图，《浮士德》。第二部分，第二幕，实验室，1899年。">
+    <img src="../media/185179_004.webp" alt="小瓶中的小人。约翰·沃尔夫冈·冯·歌德的插图，《浮士德》。第二部分，第二幕，实验室，1899年。" />
     <figcaption class="caption">小瓶中的小人。约翰·沃尔夫冈·冯·歌德的插图，《浮士德》。第二部分，第二幕，实验室，1899年。</figcaption>
 </figure>
 </p>
 <p>16世纪的炼金术士帕拉塞尔苏斯提出了一个配方，指示炼金术士对一匹马进行人工授精，让精液在子宫内腐烂。他还认为，只要把精子放在装有腐肉甚至粪便等材料的密封容器中，就可以创造出一个小人！他在《物性论》（De Natura Rerum）一书中提供的说明如下：</p>
 <p>让一个男人的精子在葫芦瓶里腐烂，密封起来，用最高程度的马粪腐烂，持续四十天，或这么久，直到很容易看到它开始有生命、移动和蠕动。过了这段时间，它就会变得像人一样，但却是透明的，没有身体。在这之后，如果它每天都被谨慎地滋养，用人血之奥秘[Arcanum of Mans blood]来喂养，并在四十个星期的时间里一直保持着马的热量，它就会成为一个真正的、活生生的婴儿，拥有女人所生的婴儿的所有器官，但它会小得多。这就是我们所说的霍尔蒙克斯（Homunculus）或人造人。此后要像其他婴儿一样小心翼翼地抚养他，直到他长大成人。现在，这是神向凡人、罪人揭示的最大秘密之一。因为这是一个奇迹，是神的伟大奇迹之一，是所有秘密中的秘密，理应保存在秘密中，直到最后的时代，那时没有什么是隐藏的[天启]，而是所有事情都显露出来。</p>
 <p><figure class="content-center">
-    <img src="../media/185179_005.webp" alt="16世纪炼金术士帕拉塞尔苏斯的画像">
+    <img src="../media/185179_005.webp" alt="16世纪炼金术士帕拉塞尔苏斯的画像" />
     <figcaption class="caption">16世纪炼金术士帕拉塞尔苏斯的画像</figcaption>
 </figure>
 </p>
@@ -304,14 +304,14 @@
 </doc-anchor-target>
 <p>创造小人的部分想法是创造一个人造人，这使它可以与犹太教的格莱姆（golem）故事相提并论，格莱姆可以由一个特别正义的拉比从灰尘中创造。教会中的一些领导人反对制造小人，因为这被认为是渎神，而且认为创造一个类似人类的智能生物只是为了当仆人是不对的。</p>
 <p><figure class="content-center">
-    <img src="../media/185179_005.webp" alt="格莱姆最初是以人的形状形成的。菲利普·塞梅利亚的格莱姆插图。他的额头上写着希伯来语的“真理”，是神的名字之一。">
+    <img src="../media/185179_005.webp" alt="格莱姆最初是以人的形状形成的。菲利普·塞梅利亚的格莱姆插图。他的额头上写着希伯来语的“真理”，是神的名字之一。" />
     <figcaption class="caption">格莱姆最初是以人的形状形成的。菲利普·塞梅利亚的格莱姆插图。他的额头上写着希伯来语的“真理”，是神的名字之一。</figcaption>
 </figure>
 </p>
 <p>当神学家对炼金术士声称他们可以制造一种叫做“小人”的人造生物而皱眉时，他们的理由不一定是我们想象的那样。他们的指控并不是在玩弄神，而是在逼迫神出手。因为尽管我们可能能够以这种神秘的方式使物质具有生命力，但只有神才能赋予它灵魂。那么，神是否必须介入，为小人提供灵魂？而且，由于它不是由亚当的血统所生，所以没有原罪，因此不需要救赎？</p>
 <p>这些都是困扰教士们的问题。也许它们也困扰着小人：在歌德对这个古老故事的重述中，浮士德的助手瓦格纳创造的小人渴望成为完全的人类，因为只有这样他才能摆脱制造他的玻璃容器。他说：“我自己渴望出生。”</p>
 <p><figure class="content-center">
-    <img src="../media/185179_006.webp" alt="▲在写作《弗兰肯斯坦》时，玛丽·雪莱借鉴了她那个时代的科学，包括路易吉·加尔瓦尼和他的侄子乔瓦尼·阿尔迪尼的电学实验，其试验对象包括被处决的罪犯的尸体，如这幅1804年的插图所示。">
+    <img src="../media/185179_006.webp" alt="▲在写作《弗兰肯斯坦》时，玛丽·雪莱借鉴了她那个时代的科学，包括路易吉·加尔瓦尼和他的侄子乔瓦尼·阿尔迪尼的电学实验，其试验对象包括被处决的罪犯的尸体，如这幅1804年的插图所示。" />
     <figcaption class="caption">▲在写作《弗兰肯斯坦》时，玛丽·雪莱借鉴了她那个时代的科学，包括路易吉·加尔瓦尼和他的侄子乔瓦尼·阿尔迪尼的电学实验，其试验对象包括被处决的罪犯的尸体，如这幅1804年的插图所示。</figcaption>
 </figure>
 </p>
@@ -328,7 +328,7 @@
 <p>许多人认为小人是强大的，但智力和推理能力有限，因此他们是亚人类，可以奴役它们。但并不是所有人都同意小人天生就是奴隶，有些人坚持认为小人必须有理性的灵魂。</p>
 <p>这反映了今天类似的辩论，即应该如何对待基因改造的个体和人工智能？他们能否等同于基因起点的生物人类？应该赋予他们与人类相同的权利吗？他们有灵魂吗？当昨天的炼金术士的梦想——人工生命，成为今天的科学家和工程师的真正发明和创造时，小人的奇怪想法在今天令人惊讶地不谋而合。</p>
 <p><figure class="content-center">
-    <img src="../media/185179_007.webp" alt="">
+    <img src="../media/185179_007.webp" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -338,9 +338,9 @@
                             <!-- Required only on API pages -->
                             <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
                         </div>
-                        <footer class="clear-both">
+                        <footer id="retype-content-footer" class="clear-both">
                         
-                            <nav class="flex mt-14">
+                            <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                 <div class="w-1/2">
                                     <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../blog/如何保存纸质照片/">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
@@ -379,7 +379,7 @@
                         <div class="docs-copyright pt-3 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
                     </div>
                 
-                    <div class="flex sm:justify-center">
+                    <div class="flex justify-center">
                         <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
                             <span class="text-xs whitespace-nowrap">Powered by</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
@@ -394,7 +394,7 @@
     </div>
 
 
-    <div id="docs-overlay-target"></div>
+    <div id="retype-overlay-target"></div>
 
     <script data-cfasync="false">window.__DOCS__ = { "title": "《钢之炼金术师》中「烧瓶里的小人」到底是什么东西？", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
