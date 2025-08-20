@@ -10,6 +10,7 @@ PIDAN (academic) journal
 
 | date       | tag                  | publisher    | author      | title |
 | :-         | :-:                  | :-           | :-          | :- |
+| 2025-07-18 | :icon-accessibility: | jandan.net   | BALI        | [从技术角度看伊朗断网](./blog/"从技术角度看伊朗断网") |
 | 2025-03-21 | :icon-accessibility: | jandan.net   | BALI        | [猪肉禁忌的起源](./blog/"猪肉禁忌的起源") |
 | 2024-10-25 | :icon-accessibility: | fermi.ink    | Fermi       | [内容行业的内幕](./blog/"内容行业的内幕") |
 | 2024-09-27 | :icon-accessibility: | fermi.ink    | Fermi       | [如何拍出爆款视频](./blog/"如何拍出爆款视频") |
