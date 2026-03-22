@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/PIDAN-journal">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808969126747">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827466264164">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.11.0">
+    <meta name="generator" content="Retype 4.3.0">
 
     <!-- Primary Meta Tags -->
     <title>一文搞懂复式记账原理</title>
@@ -17,201 +18,170 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://scillidan.github.io/PIDAN-journal/blog/一文搞懂复式记账原理/">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://scillidan.github.io/PIDAN-journal/blog/一文搞懂复式记账原理/">
     <meta property="og:title" content="一文搞懂复式记账原理">
     <meta property="og:description" content="我们不是财务人员也没有想要成为财务人员，为什么要学习复式记账？">
     <meta property="og:image" content="https://scillidan.github.io/PIDAN-journal/blog/media/85033_001.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="一文搞懂复式记账原理">
+    <meta property="og:site_name" content="𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑">
+    <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://scillidan.github.io/PIDAN-journal/blog/一文搞懂复式记账原理/">
-    <meta property="twitter:title" content="一文搞懂复式记账原理">
-    <meta property="twitter:description" content="我们不是财务人员也没有想要成为财务人员，为什么要学习复式记账？">
-    <meta property="twitter:image" content="https://scillidan.github.io/PIDAN-journal/blog/media/85033_001.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://scillidan.github.io/PIDAN-journal/blog/一文搞懂复式记账原理/">
+    <meta name="twitter:title" content="一文搞懂复式记账原理">
+    <meta name="twitter:description" content="我们不是财务人员也没有想要成为财务人员，为什么要学习复式记账？">
+    <meta name="twitter:image" content="https://scillidan.github.io/PIDAN-journal/blog/media/85033_001.webp">
+    <meta name="twitter:image:alt" content="一文搞懂复式记账原理">
+    <meta name="twitter:creator" content="accelee">
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="Blog >> Feed" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml">
+    <link rel="alternate" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.808969126747" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.3.0.827466264164" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808969126747" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808969126747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.3.0.827466264164" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.3.0.827466264164" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/scillidan/fonts@latest/serve/lxgw-wenkai-gb.css">
     <link href="static/user.css" rel="stylesheet" />
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
-        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
-            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
-                <!-- Mobile menu button skeleton -->
-                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
-                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
-        
-                <!-- Logo -->
-                <div class="flex items-center justify-between h-full py-2 md:w-75">
-                    <div class="flex items-center px-2 md:px-6">
-                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
-                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑</span>
-                        </a>
-                    </div>
-        
-                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://scillidan.github.io/PIDAN-journal/" class="flex items-center leading-snug text-xl">
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑</span>
+                    </a>
                 </div>
-        
-                <div class="flex justify-between md:grow">
-                    <!-- Top Nav -->
-                    <nav id="retype-header-nav" class="hidden md:flex">
-                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
-                            <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                        <g fill="currentColor">
-                                            <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
-                                        </g>
-                                    </svg>
-                                    <span>Source</span>
-                                </a>
-                            </li>
-                            <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                        <g fill="currentColor">
-                                            <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
-                                        </g>
-                                    </svg>
-                                    <span>RSS</span>
-                                </a>
-                            </li>
-        
-                        </ul>
-                    </nav>
-        
-                    <!-- Header Right Skeleton -->
-                    <div v-cloak class="flex justify-end grow skeleton">
-        
-                        <!-- Search input mock -->
-                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
-                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                            </div>
-                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
-                        </div>
-        
-                        <!-- Mobile search button -->
-                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                        </div>
-        
-                        <!-- Dark mode switch placeholder -->
-                        <div class="w-10 h-10 lg:ml-2"></div>
-        
-                        <!-- History button -->
-                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
-                        </div>
-                    </div>
-        
-                    <div v-cloak class="flex justify-end grow">
-                        <div id="retype-mobile-search-button"></div>
-                        <doc-search-desktop></doc-search-desktop>
-        
-                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
-                        <doc-history></doc-history>
-                    </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+            </div>
+    
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
+                                </svg>
+                                <span>Source</span>
+                            </a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
+                                </svg>
+                                <span>RSS</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
                 </div>
             </div>
-        </header>
-    
-    
-        <div class="relative flex mx-auto bg-white max-w-core">
-            <div class="md:hidden">
-                <!-- Sidebar Skeleton -->
-                <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
-                
-                    <div class="flex items-center h-16 px-6">
-                        <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
-                    </div>
-                
-                    <div class="pl-6 mt-1 mb-4">
-                        <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                    </div>
-                
-                    <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+        </div>
+    </header>
+
+
+    <div class="relative flex mx-auto bg-white max-w-core">
+        <div class="md:hidden">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                                <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
+                                            </svg>
+                                            <span>Source</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                                <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
+                                            </svg>
+                                            <span>RSS</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
                         <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
                             <span class="text-xs whitespace-nowrap">Powered by</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
                         </a>
                     </div>
-                </div>
-                
-                <!-- Sidebar component -->
-                <doc-sidebar v-cloak>
-                    <template #sidebar-footer>
-                        <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
-                
-                            <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
-                                <nav>
-                                    <ul class="flex flex-wrap justify-center items-center">
-                                        <li class="mr-6">
-                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                                    <g fill="currentColor">
-                                                        <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
-                                                    </g>
-                                                </svg>
-                                                <span>Source</span>
-                                            </a>
-                                        </li>
-                                        <li class="mr-6">
-                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                                    <g fill="currentColor">
-                                                        <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
-                                                    </g>
-                                                </svg>
-                                                <span>RSS</span>
-                                            </a>
-                                        </li>
-                
-                                    </ul>
-                                </nav>
-                            </div>
-                
-                            <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
-                                <span class="text-xs whitespace-nowrap">Powered by</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
-                            </a>
-                        </div>
-                    </template>
-                </doc-sidebar>
-            </div>
-    
-            <div class="grow min-w-0 bg-body-bg">
-                <!-- Render page content -->
-                <div class="grow min-w-0 px-6">
-                    <main class="relative pt-6 pb-16">
-                        <div class="retype-markdown" id="retype-content">
-                            <!-- Rendered if sidebar right is enabled -->
-                            <div id="retype-sidebar-right-toggle"></div>
-                            <!-- Page content  -->
-<doc-anchor-target id="一文搞懂复式记账原理" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#一文搞懂复式记账原理">#</doc-anchor-trigger>
-        <span>一文搞懂复式记账原理</span>
-    </h1>
-</doc-anchor-target>
-<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center print:justify-center">
+                </template>
+            </doc-sidebar>
+        </div>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render page content -->
+<div class="grow min-w-0 px-6">
+    <main class="relative pt-6 pb-16">
+        <div class="retype-markdown" id="retype-content">
+            <!-- Rendered if sidebar right is enabled -->
+            <div id="retype-sidebar-right-toggle"></div>
+            <!-- Page content  -->
+<h1 id="一文搞懂复式记账原理">一文搞懂复式记账原理</h1>
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
     <div class="flex items-center">
         <div>By</div>
         <div class="ml-2 flex items-center">
@@ -230,14 +200,9 @@
 <p>复式记账听起来有点复杂，其实对于个人、家庭记账来说，并不需要像企业那样遵循很多繁琐的规定。相比企业会计，个人记账更加简单灵活，你可以用自己的方式处理。复式记账涉及到许多专业的会计概念，我认为难点在于一般讲复式记账都是企业那一套，大量的会计概念和我们平时的理解是完全不同的，与日常生活有很大的距离。这也导致了普通人学习复式记账时发现每个字都认识，却无法理解到底讲的是什么。</p>
 <p>我希望这篇文章能用通俗易懂的语言，让你轻松理解复式记账的核心概念。</p>
 <p>现代小学生所学习的数学知识在几百年前是少数精英或者专业数学家才能接触到的内容，然而现在我们的小学生都能够掌握，是我们现在的人比以前更聪明吗？我不觉得是这样，更可能是现在这些知识非常的普及。我认为未来复式记账也会是这样，复式记账发展了四五百年，已经是非常成熟的一门学问了，这是一种高级的记账方式和思考方式，我们现代人都应该掌握。Beancount 的作者 Martin Blais 也说他认为在高中开始就应该教授学生复式记账的方法。</p>
-<doc-anchor-target id="以物易物的交易">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#以物易物的交易">#</doc-anchor-trigger>
-        <span>以物易物的交易</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="以物易物的交易">以物易物的交易</h2>
 <p><figure class="content-center">
-    <img src="../media/85033_001.webp" alt="艾莉" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../media/85033_001.webp" alt="艾莉" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">艾莉</figcaption>
 </figure>
 </p>
@@ -410,14 +375,9 @@
 </blockquote>
 <p>复式记账最核心最基本的原则就是「<strong>有借必有贷，借贷必相等</strong>」，这里所说的「借」和「贷」<strong>不是我们平常所说的借款、贷款的意思，它们只是一种记账的符号</strong>，没有特别的意思**。<strong>我自己在学习和实践中发现把「借」和「贷」分别理解成「我获得的」和「我付出的」。这样「有借必有贷，借贷必相等」就可以理解为</strong>当我和别人发生交易的时候，我给别人的东西，和我从别人那里获得的东西，它们的价格必须是相等的**，这其实就是等价交换原则。如前面的故事中对于艾莉来说，她从鲍薄那里获得的两把石刀就是「我获得的」也就是「借」，她给鲍薄的一个陶罐就是「我付出的」也就是「贷」。</p>
 <p>当然这是一个不恰当的例子，因为在会计系统中，所有的东西必须有个货币价格，在原始社会还没有货币。举一个我们生活中的例子，我用 10 元钱买一个雪糕，我获得的就是一个价格 10 元钱的雪糕，我付出的就是面值 10 元的人民币，这两者在价格上是相等的。这实际上就是记录了交易的两个方面，必须有两方才能发生交易，因此复式记账记录的交易信息更完整。</p>
-<doc-anchor-target id="货币为中介的交易">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#货币为中介的交易">#</doc-anchor-trigger>
-        <span>货币为中介的交易</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="货币为中介的交易">货币为中介的交易</h2>
 <p><figure class="content-center">
-    <img src="../media/85033_002.webp" alt="鲍薄" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../media/85033_002.webp" alt="鲍薄" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">鲍薄</figcaption>
 </figure>
 </p>
@@ -853,12 +813,7 @@
 <p><strong>资产 = 负债 + 所有者权益</strong></p>
 </blockquote>
 <p>资产负债表就充分反应了复式记账的另一个基本原则，也就是<strong>会计恒等式：资产=负债+所有者权益</strong>。资产账户就是你所拥有的能够进行生产进而进一步获取收益的东西，对于个人、家庭来说主要就是现金、房产和汽车，当然也可以是股票等金融产品。负债就是你向别人索取资产、服务或者劳动的时候，你没有给出等值的东西，而是打了一张欠条承诺之后一定会还的。该账户记录的就是这个欠条承诺归还的资产价值。所有者权益就是你真正所拥有的东西，对于个人、家庭记账来说可以理解为就是资产和负债的差额也就是<strong>净资产</strong>。<strong>你的每一笔资产都对应着别人的一笔负债，你每一笔负债都对应着别人的一笔资产</strong>，它们也是一枚硬币的两个面。例如你存在银行的现金，对你来说就是资产，对于银行来说就是负债。你信用卡上的欠款对于你来说就是负债，但那却是银行的资产。</p>
-<doc-anchor-target id="关于借和贷">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#关于借和贷">#</doc-anchor-trigger>
-        <span>关于「借」和「贷」</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="关于借和贷">关于「借」和「贷」</h2>
 <p>「借」和「贷」恐怕是复式记账里面最难理解的一对概念了。这一方面是因为，我们会把这里的「借」和「贷」往借款和贷款上去联系，试图找到其中的规律，但是<strong>在复式记账里面，这两个字没有实际的意义</strong>，所以不用去联想，死记硬背是最好的办法。</p>
 <p>当然我自己找到的一个比较好的方法就是把「借」和「贷」用「我获得的」和「我付出的」替换掉，并且在脑海里记住它们的位置。「我获得的」总是记录在左边，「我付出的」总是记录在右边。</p>
 <p>在记录一个具体的账目的时候，这样做就非常好去分辨到底哪个应该记录在「借」方，哪个应该记录在「贷」。解决了这个难题之后，还有一个难题需要解决，那就是在由日记账去制作分类账时会遇到的需要加总每一个不同类型的账户上的金额。例如前面的把所有的收入账户加总，在这个时候可能会遇到一个问题，那就是对于同一个账户中「借」和「贷」都有数字的时候，到底哪个应该算增加，哪个应该算减少？这个没有啥好方法就是死记硬背，<strong>收入和负债账户的</strong>「<strong>借</strong>」<strong>是减少，</strong>「<strong>贷</strong>」<strong>是增加，相反的支出和资产账户的</strong>「<strong>借</strong>」<strong>是增加，</strong>「<strong>贷</strong>」<strong>是减少</strong>。</p>
@@ -887,16 +842,11 @@
 </table>
 </div>
 <p><strong>在资产、负债、收入、支出这四个账户中，资产是需要获取的为正，相应的硬币的另一面负债是我需要承担的责任就为负，支出账户中是我获得的东西因此为正，相应的硬币的另一面收入是我需要付出就为负</strong>。这也是受到了 Beancount 思路的启发。这样的话只需要记住资产和支出账户正常情况下余额为正，而负债和收入账户正常情况下余额为负，配合前面的「我获得的」记录为正，「我付出的」记录为负，就可以进行相关的计算了。之前的所有记录和报表都是按照传统的会计要求制作的，如果按照「我获得的」的记为正，「我付出的」记为负，资产和支出余额为正，负债和收入账户余额为负的规则情况下，所有的记录和报表应该是什么样子，读者可以自己尝试一下。</p>
-<doc-anchor-target id="会计科目表">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#会计科目表">#</doc-anchor-trigger>
-        <span>会计科目表</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="会计科目表">会计科目表</h2>
 <p>会计科目表不专业的说法<strong>可以理解为记账的时候所使用的所有的会计账户的总和</strong>，当然这是一个有分类，有结构的一个表。对于个人、家庭来说主要的就是四大类账户，收入、支出、资产和负债，这四个属于一级账户，在每个账户下面可以根据自己的需要设置二级，三级甚至更多级的账户，但是建议对于个人、家庭记账分到三级账户就基本够用了，过于精细不利于管理和长期的记录。</p>
 <p>如何在这四类账户底下设置更细的账户是一个见仁见智的事情，每个人的需求不一样，关心和需要追踪的东西不一样，因此会计账户的设置是有很大的灵活性的。在这四类账户中，我们普通人最常用到的是支出账户，因此支出账户下的分类就显得比较重要，很多人也常常会被卡在这里。一个好的账户分类可以让记账者少走很多弯路，但是这确实也很难有一个统一的标准。以下是我自己总结的一个到二级的分类，更详细的原则和解释可以再写一篇文章了。</p>
 <p><figure class="content-center">
-    <img src="../media/85033_003.webp" alt="会计科目表" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../media/85033_003.webp" alt="会计科目表" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">会计科目表</figcaption>
 </figure>
 </p>
@@ -904,64 +854,64 @@
 <p>相信能够坚持读到这里的读者一定是有极高的耐心了，如果你之前完全没有接触过财务相关知识的话，现在一定还是一头雾水，你一定觉得太难了根本搞不懂，相信我你并不孤单。其实复式记账并不难，但是因为涉及到的概念会比较多，而且很多和我们日常的理解有所不同，因此想要一下子就把所有的概念打通是有点难度的，需要些时间让自己对这些概念变得熟悉起来，最简单的办法就是把这篇文章多读几遍，时不时得再拿出来看看，最好自己要去尝试进行记录，这样有学习、有实践、有思考、有反馈，我相信用不了多久就可以掌握复式记账的方法。</p>
 <p>经过长期的记账实践，我觉得记账的思想和选择什么样的记账的工具都很重要，但是长期来看记账的思想比使用什么工具记账更加的重要。复式记账是目前企业通行的一套方法，因此个人掌握了复式记账的原理，理论就可以记录任何的账目。对于个人、家庭记账来说，具体的记账复杂度完全可以自己掌控，可以记得很简单，也可以记录的很详细很复杂，完全看自己的需要，因此其灵活性和扩展性都非常的好。学会复式记账的原理和思想比花同样的时间学习一款记账有用的多。</p>
 
-                            
-                            <!-- Required only on API pages -->
-                            <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
-                        </div>
-                        <footer id="retype-content-footer" class="clear-both">
-                        
-                            <nav id="retype-nextprev" class="print:hidden flex mt-14">
-                                <div class="w-1/2">
-                                    <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../blog/真的是条条大路通罗马吗/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        <span>
-                                            <span class="block text-xs font-normal text-base-text-muted">Newer</span>
-                                            <span class="block mt-1">真的是“条条大路通罗马”吗？</span>
-                                        </span>
-                                    </a>
-                                </div>
-                        
-                                <div class="w-1/2">
-                                    <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../blog/半机械蟑螂地震搜救的未来/">
-                                        <span>
-                                            <span class="block text-xs font-normal text-right text-base-text-muted">Older</span>
-                                            <span class="block mt-1">半机械蟑螂，地震搜救的未来？</span>
-                                        </span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                    </a>
-                                </div>
-                            </nav>
-                        </footer>
-                    </main>
+            
+            <!-- Required only on API pages -->
+            <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+        </div>
+        <footer id="retype-content-footer" class="clear-both">
+        
+            <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                <div class="w-1/2">
+                    <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../blog/真的是条条大路通罗马吗/">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                        <span>
+                            <span class="block text-xs font-normal text-base-text-muted">Newer</span>
+                            <span class="block mt-1">真的是“条条大路通罗马”吗？</span>
+                        </span>
+                    </a>
                 </div>
+        
+                <div class="w-1/2">
+                    <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../blog/半机械蟑螂地震搜救的未来/">
+                        <span>
+                            <span class="block text-xs font-normal text-right text-base-text-muted">Older</span>
+                            <span class="block mt-1">半机械蟑螂，地震搜救的未来？</span>
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                    </a>
+                </div>
+            </nav>
+        </footer>
+    </main>
+</div>
 
-            </div>
         </div>
-    
-        <div class="border-t dark:border-base-border">
-            <div class="max-w-core mx-auto px-6 py-6">
-                <footer>
-                    <div class="flex flex-wrap items-center justify-between">
-                        <div class="pt-3">
-                            <ul class="flex flex-wrap items-center text-sm">
-                            </ul>
-                        </div>
-                        <div id="retype-copyright" class="print:justify-center pt-3 text-footer-text font-footer-link-weight text-sm leading-relaxed"></div>
-                    </div>
-                
-                    <div class="flex justify-center">
-                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
-                            <span class="text-xs whitespace-nowrap">Powered by</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
-                        </a>
-                    </div>
-                </footer>
-            </div>
-        </div>
-    
-        <doc-search-mobile></doc-search-mobile>
-        <doc-back-to-top></doc-back-to-top>
     </div>
+
+    <div class="border-t dark:border-base-border">
+        <div class="max-w-core mx-auto px-6 py-6">
+            <footer>
+                <div class="flex flex-wrap items-center justify-between">
+                    <div id="retype-footer-links" class="pt-3 print:hidden">
+                        <ul class="flex flex-wrap items-center text-sm">
+                        </ul>
+                    </div>
+                    <div id="retype-copyright" class="print:justify-center pt-3 text-footer-text font-footer-link text-sm leading-relaxed"></div>
+                </div>
+            
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
 
 
     <div id="retype-overlay-target"></div>

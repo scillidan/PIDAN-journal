@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog</title>
+    <title>𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑 Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
-    <description>Blog</description>
-    <lastBuildDate>Fri, 18 Jul 2025 00:00:00 GMT</lastBuildDate>
-    <generator>https://retype.com</generator>
+    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <generator>Retype 4.3.0</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>忌讳筷：日本文化里忌讳的筷子动作</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/忌讳筷日本文化里忌讳的筷子动作/</guid>
+      <description>在日本用餐，筷子的使用不当不仅关乎个人礼貌，有时甚至会触碰深层的文化禁忌。这些被统称为“忌讳筷”的行为，在日语中写作kiraibashi。对于注重餐桌礼仪的人来说，掌握这些细节是尊重当地文化的第一步。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>从技术角度看伊朗断网</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/从技术角度看伊朗断网/</guid>
@@ -108,7 +114,7 @@
     <item>
       <title>面对扫码抽奖骗局，我用两天挽回损失</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/面对扫码抽奖骗局我用两天挽回损失/</guid>
-      <description>很多时候面对诈骗案例可能总会觉得如此明显的骗局为何都会容易轻信，直到自己中招后才意识到:「心生贪念，终酿苦果」。近日当我遇到扫码抽奖送平板的活动时，一度认为我遇上了福利。当晚在回忆事件后才发觉种种不妥，开始通过各种方式尝试寻求救济，最终在第二日挽回了相关损失，避免了恶劣后果。所以想以文章形式进行总结...</description>
+      <description>很多时候面对诈骗案例可能总会觉得如此明显的骗局为何都会容易轻信，直到自己中招后才意识到:「心生贪念，终酿苦果」。近日当我遇到扫码抽奖送平板的活动时，一度认为我遇上了福利。当晚在回忆事件后才发觉种种不妥，开始通过各种方式尝试寻求救济，最终在第二日挽回了相关损失，避免了恶劣后果。所以想以文章形式进行总结与分享，从中</description>
       <author>楚庭孤客 - https://sspai.com/u/auspicium</author>
       <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
     </item>
@@ -129,7 +135,7 @@
     <item>
       <title>真的是“条条大路通罗马”吗？</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/真的是条条大路通罗马吗/</guid>
-      <description>这个地图故事讲的是关于一张特殊的地图，这是罗马帝国的唯一遗留地图。这张地图长6.8米，高33厘米，跨度从今日的西法到斯里兰卡，从南部的阿斯旺到北部的海牙，几乎包括了已知世界的所有地方。它显示的是公共课程的路线，这是国家管理的供信使和官方运输使用的道路网。我们称之为Tabula...</description>
+      <description>这个地图故事讲的是关于一张特殊的地图，这是罗马帝国的唯一遗留地图。这张地图长6.8米，高33厘米，跨度从今日的西法到斯里兰卡，从南部的阿斯旺到北部的海牙，几乎包括了已知世界的所有地方。它显示的是公共课程的路线，这是国家管理的供信使和官方运输使用的道路网。我们称之为Tabula Peutingeriana。</description>
       <author>chaozaiji - https://jandan.net/p/author/chaozaiji</author>
       <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
     </item>
@@ -139,13 +145,6 @@
       <description>我们不是财务人员也没有想要成为财务人员，为什么要学习复式记账？</description>
       <author>accelee - https://sspai.com/u/ecjuu535</author>
       <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>半机械蟑螂，地震搜救的未来？</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/半机械蟑螂地震搜救的未来/</guid>
-      <description>从可驾驶的仿生动物到由肌肉制成的机器，生物混合机器人正在走向各种应用。</description>
-      <author>chaozaiji - https://jandan.net/p/author/chaozaiji</author>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

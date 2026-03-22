@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/PIDAN-journal">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808969126747">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827466264164">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.11.0">
+    <meta name="generator" content="Retype 4.3.0">
 
     <!-- Primary Meta Tags -->
     <title>Blog</title>
@@ -16,771 +17,343 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://scillidan.github.io/PIDAN-journal/blog/">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://scillidan.github.io/PIDAN-journal/blog/">
     <meta property="og:title" content="Blog">
+    <meta property="og:site_name" content="𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑">
+    <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://scillidan.github.io/PIDAN-journal/blog/">
-    <meta property="twitter:title" content="Blog">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://scillidan.github.io/PIDAN-journal/blog/">
+    <meta name="twitter:title" content="Blog">
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="Blog >> Feed" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml">
+    <link rel="alternate" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.11.0.808969126747" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.3.0.827466264164" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.808969126747" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.808969126747" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.3.0.827466264164" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.3.0.827466264164" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/scillidan/fonts@latest/serve/lxgw-wenkai-gb.css">
     <link href="static/user.css" rel="stylesheet" />
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
-        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
-            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
-                <!-- Mobile menu button skeleton -->
-                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
-                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
-        
-                <!-- Logo -->
-                <div class="flex items-center justify-between h-full py-2 md:w-75">
-                    <div class="flex items-center px-2 md:px-6">
-                        <a id="retype-branding-logo" href="../" class="flex items-center leading-snug text-xl">
-                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑</span>
-                        </a>
-                    </div>
-        
-                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+    <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+        <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+            <!-- Mobile menu button skeleton -->
+            <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-hidden rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+            <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+    
+            <!-- Logo -->
+            <div class="flex items-center justify-between h-full py-2 md:w-75">
+                <div class="flex items-center px-2 md:px-6">
+                    <a id="retype-branding-logo" href="https://scillidan.github.io/PIDAN-journal/" class="flex items-center leading-snug text-xl">
+                        <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑</span>
+                    </a>
                 </div>
-        
-                <div class="flex justify-between md:grow">
-                    <!-- Top Nav -->
-                    <nav id="retype-header-nav" class="hidden md:flex">
-                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
-                            <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                        <g fill="currentColor">
-                                            <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
-                                        </g>
-                                    </svg>
-                                    <span>Source</span>
-                                </a>
-                            </li>
-                            <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                        <g fill="currentColor">
-                                            <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
-                                        </g>
-                                    </svg>
-                                    <span>RSS</span>
-                                </a>
-                            </li>
-        
-                        </ul>
-                    </nav>
-        
-                    <!-- Header Right Skeleton -->
-                    <div v-cloak class="flex justify-end grow skeleton">
-        
-                        <!-- Search input mock -->
-                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
-                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                            </div>
-                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
-                        </div>
-        
-                        <!-- Mobile search button -->
-                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                        </div>
-        
-                        <!-- Dark mode switch placeholder -->
-                        <div class="w-10 h-10 lg:ml-2"></div>
-        
-                        <!-- History button -->
-                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
-                        </div>
-                    </div>
-        
-                    <div v-cloak class="flex justify-end grow">
-                        <div id="retype-mobile-search-button"></div>
-                        <doc-search-desktop></doc-search-desktop>
-        
-                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
-                        <doc-history></doc-history>
-                    </div>
-                </div>
+    
+                <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
             </div>
-        </header>
     
-    
-        <div class="relative flex mx-auto bg-white max-w-core">
-            <div class="md:hidden">
-                <!-- Sidebar Skeleton -->
-                <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
-                
-                    <div class="flex items-center h-16 px-6">
-                        <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
-                    </div>
-                
-                    <div class="pl-6 mt-1 mb-4">
-                        <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                        <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
-                    </div>
-                
-                    <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
-                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
-                            <span class="text-xs whitespace-nowrap">Powered by</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Sidebar component -->
-                <doc-sidebar v-cloak>
-                    <template #sidebar-footer>
-                        <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
-                
-                            <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
-                                <nav>
-                                    <ul class="flex flex-wrap justify-center items-center">
-                                        <li class="mr-6">
-                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                                    <g fill="currentColor">
-                                                        <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"/>
-                                                    </g>
-                                                </svg>
-                                                <span>Source</span>
-                                            </a>
-                                        </li>
-                                        <li class="mr-6">
-                                            <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                                    <g fill="currentColor">
-                                                        <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
-                                                    </g>
-                                                </svg>
-                                                <span>RSS</span>
-                                            </a>
-                                        </li>
-                
-                                    </ul>
-                                </nav>
-                            </div>
-                
-                            <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
-                                <span class="text-xs whitespace-nowrap">Powered by</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+            <div class="flex justify-between md:grow">
+                <!-- Top Nav -->
+                <nav id="retype-header-nav" class="hidden md:flex">
+                    <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
+                                </svg>
+                                <span>Source</span>
                             </a>
-                        </div>
-                    </template>
-                </doc-sidebar>
-            </div>
+                        </li>
+                        <li class="mr-6">
+                            <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
+                                </svg>
+                                <span>RSS</span>
+                            </a>
+                        </li>
     
-            <div class="grow min-w-0 bg-body-bg">
-                <!-- Render page content -->
-                <div class="grow min-w-0 px-6">
-                    <main class="relative pt-6 pb-16">
-                        <div class="retype-markdown" id="retype-content">
-                            <!-- Rendered if sidebar right is enabled -->
-                            <div id="retype-sidebar-right-toggle"></div>
-                            <!-- Page content  -->
-<doc-anchor-target id="blog" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#blog">#</doc-anchor-trigger>
-        <span>Blog</span>
-    </h1>
-</doc-anchor-target>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/从技术角度看伊朗断网/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">从技术角度看伊朗断网</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">伊朗断网背后隐藏复杂网络体系，防火墙与卫星并存，仍留信息突破口。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2025-07-18</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/猪肉禁忌的起源/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">猪肉禁忌的起源</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">猪肉占全球肉类三分之一，却被20亿人视为禁忌。从古近东的猪宴到宗教禁令，这篇文章揭秘人类如何因经济、环境与身份认同，逐渐疏远这一多产的动物。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2025-03-21</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/内容行业的内幕/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/2024102501_001.webp">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">内容行业的内幕</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">有一个行业，这些年蒸蒸日上，快速增长，加入的人越来越多。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-10-25</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/如何拍出爆款视频/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/2024092701_001.webp">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">如何拍出爆款视频</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">MrBeast 是美国第一网红，可能也是世界第一网红。他是 Youtube 订阅者最多的频道，2024年9月拥有3.17亿粉丝。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-09-27</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/如何保存纸质照片/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">如何保存纸质照片</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">保护家族照片，让它们的故事代代相传。本文提供详细方法。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-07-28</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/钢之炼金术师中烧瓶里的小人到底是什么东西/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/185179_001.webp">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">《钢之炼金术师》中「烧瓶里的小人」到底是什么东西？</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">瓶中小人或烧瓶里的小人，即十六世纪的炼金术师帕拉塞尔苏斯所说的homunculus，在拉丁语中意为“小人”，指的是一个微型的、完全成形的人。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-07-18</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/从长远来看人类历史大部分都很糟糕/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">从长远来看，人类历史大部分都很糟糕</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">从旧石器时代的工具到现代科技，人类历史展示了技术进步和生活水平的巨大变化。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-07-16</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/无聊者的无尽烦恼/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">无聊者的无尽烦恼</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">无聊既是因，也是果。通过实用智慧和专注实践，我们可以找到克服无聊的方法。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-06-26</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/数学构筑现代世界的基石/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">数学：构筑现代世界的基石</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">数学不仅是科学发现的先导，更是工业革命和现代社会的基石。从几何计算到社会数学，再到现代科学的兴起，数学的应用贯穿了整个现代世界的构建过程。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-06-06</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/疯狂的石头治疗狂犬病的万能良药/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">疯狂的石头：治疗狂犬病的“万能良药”</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">在疫苗问世前，人们曾对付致命的狂犬病疫情，普遍采用神秘的动植矿物复合"狂犬石"疗法。这种奇特的民间仪式，源自人类对未知的恐惧与渴求掌控的冲动。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-03-13</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/扁豆从默默无闻到人类文明基石/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">扁豆：从默默无闻到人类文明基石</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">扁豆与小麦和大麦同期被驯化，却鲜被提及。本文讲述扁豆如何成为人类社会基石，以及其作为植物蛋白来源的潜力。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-03-06</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/进化大爆发之谜蛇为何如此种类繁多/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">进化大爆发之谜：蛇为何如此种类繁多？</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">全世界有数千种蛇类，其惊人的多样性是生物进化史上的一个谜题。最新研究表明，蛇类的爆发式演化可能源于一次特殊的“奇点事件”，使其成为爬行动物中独树一帜的存在。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-02-24</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/号的补充历史比想象的要复杂得多/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">「#」号的补充历史：比想象的要复杂得多</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">最近看到少数派上的一篇文章：「#」的前世今生，然后对有一处地方比较疑惑：</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-02-20</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/无脑生物是如何学习和记忆的/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/115474_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">无脑生物是如何学习和记忆的</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">许多细胞团长期展现了基础认知能力，一些动物甚至失去了大脑还能记住事情</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-01-27</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/面对扫码抽奖骗局我用两天挽回损失/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/85477_001.webp">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">面对扫码抽奖骗局，我用两天挽回损失</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">很多时候面对诈骗案例可能总会觉得如此明显的骗局为何都会容易轻信，直到自己中招后才意识到:「心生贪念，终酿苦果」。近日当我遇到扫码抽奖送平板的活动时，一度认为我遇上了福利。当晚在回忆事件后才发觉种种不妥，开始通过各种方式尝试寻求救济，最终在第二日挽回了相关损失，避免了恶劣后果。所以想以文章形式进行总结...</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-01-02</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/饺子的全球史/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">饺子的全球史</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">饺子是一种美味的食物，其受欢迎程度足以超越国境，但这些面食是如何赢得国际声誉的呢？</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2024-01-02</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/美国人不懂中国豆腐/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/115225_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">美国人不懂中国豆腐</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">中国已经花了几千年的时间探索大豆凝乳的烹饪可能性。西方却仅仅触及其表面。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-12-31</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/真的是条条大路通罗马吗/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/115185_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">真的是“条条大路通罗马”吗？</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">这个地图故事讲的是关于一张特殊的地图，这是罗马帝国的唯一遗留地图。这张地图长6.8米，高33厘米，跨度从今日的西法到斯里兰卡，从南部的阿斯旺到北部的海牙，几乎包括了已知世界的所有地方。它显示的是公共课程的路线，这是国家管理的供信使和官方运输使用的道路网。我们称之为Tabula...</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-12-27</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/一文搞懂复式记账原理/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/85033_001.webp">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">一文搞懂复式记账原理</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">我们不是财务人员也没有想要成为财务人员，为什么要学习复式记账？</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-12-20</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/半机械蟑螂地震搜救的未来/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/115030_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">半机械蟑螂，地震搜救的未来？</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">从可驾驶的仿生动物到由肌肉制成的机器，生物混合机器人正在走向各种应用。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-12-11</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/pdf的历史/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">PDF的历史</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">你上次点击一个链接，发现自己正在打开一个PDF文件，却没有痛苦地叹气是什么时候？</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-12-06</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/死亡的起源/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">死亡的起源</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">乔治·沃尔德 于1970年</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-12-05</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/毛毛虫是如何变成美丽蝴蝶的/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/114788_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">毛毛虫是如何变成美丽蝴蝶的</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">从毛毛虫这样卑微的开始，这些昆虫经历了一次惊人的变态，将它们变成了大自然中最优雅的生物之一。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-11-16</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/动物是如何进化出飞行能力的/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">动物是如何进化出飞行能力的</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">哪个先出现：飞行的恐龙还是鸟类？</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-10-22</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/死后的微生物为新生命提供养分/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">死后的微生物：为新生命提供养分</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">每个人体内都含有数万亿复杂的微生物群系，这些微生物在你活着时对你的健康非常重要。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-10-03</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/像达尔文一样用餐当科学家吞食他们的研究对象/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">像达尔文一样用餐：当科学家吞食他们的研究对象</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">概要：</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-09-02</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/科学家总结了动物进化的七条规则/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">科学家总结了动物进化的七条规则</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">自然界有一些规律可以解释我们在动物王国中看到的极端形状和大小。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-08-31</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/恐龙在一次大灭绝中幸存了下来但后来的它们没那么好运/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/113889_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">恐龙在一次大灭绝中幸存了下来，但后来的它们没那么好运</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">在那个命中注定的小行星撞击地球之前，"可怕的蜥蜴"们的生活是美好的。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-08-24</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/在人造卫星发明之前人们是如何制作地图的/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/113698_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">在人造卫星发明之前，人们是如何制作地图的</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">地图制作的历史是人类探索数百年的尝试和错误。地图随着新的重要信息而发展，但也保留了关于想象中的怪物和地方的特征。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-08-01</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/蜂巢里的几何学/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/113676_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">蜂巢里的几何学</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block"><strong>蜜蜂和黄蜂不像数学家，但它们能用几何学解决建筑难题。</strong></p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-07-29</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/有鸟用防鸟刺筑巢以防御其他鸟类/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">有鸟用防鸟刺筑巢以防御其他鸟类</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">喜鹊和乌鸦正在利用从建筑物上搜集来的防鸟刺来筑巢。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-07-13</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/池塘和湖泊的区别在哪/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">池塘和湖泊的区别在哪</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">你是否曾经看着一片水域并思考：这是一个美丽的池塘还是一个壮丽的湖泊？它们之间到底有什么区别？</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-07-10</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/雨后的蘑菇在地下用电信号交流/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">雨后的蘑菇在地下用电信号交流？</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">日本的科学家发现，雨后一些真菌可能会用地下的电信号进行交流。他们研究了一种叫做双色欺骗菌(Laccaria...</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-05-30</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/用于蛋糕冰激凌的人造香草调味剂真的来自海狸的肛门分泌物吗/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">用于蛋糕、冰激凌的人造香草调味剂，真的来自海狸的肛门分泌物吗？</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">从蛋糕、糖果到麦片和冰淇淋，香草、草莓和覆盆子(味)等人造香料广泛存在于加工食品中。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-03-11</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/长期新冠现在看起来像一种神经系统疾病/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/112520_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">长期新冠现在看起来像一种神经系统疾病</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">太长不看版摘要：</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-03-08</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/可用于监视动物甚至人类的鸟尸无人机/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">可用于监视动物甚至人类的鸟尸无人机</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">用鸟类尸体标本进行伪装的扑翼式无人机可以用于研究野生鸟类或军事间谍任务，但这类无人机目前还不是最高效的飞行器。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-02-15</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/112079_01.gif">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">睡眠中的玻璃蛙通过把大部分血细胞储存在肝脏中来隐藏自己</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">这种蛙 (Hyalinobatrachium fleischmanni) 能把血细胞藏起来从而提高自身透明度，而且这样做也没有副作用。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2023-01-02</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/关于白噪音粉红噪音和棕色噪音/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">关于白噪音、粉红噪音和棕色噪音</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">除了饮食和运动，睡眠是身体健康最重要的方面之一。 深度睡眠是身体和大脑功能进入“维护模式”，让它们为即将到来的一天做好准备。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-11-30</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/装有黄金舌头的古埃及木乃伊/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/111780_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">装有黄金舌头的古埃及木乃伊</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">考古学家在埃及发现了几具古老的木乃伊，他们的嘴里有一片黄金舌头。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-11-28</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/原来植物血管也会有气栓塞为何现代植物进化出如此复杂的维管束/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/111725_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">原来植物血管也会有气栓塞：为何现代植物进化出如此复杂的维管束</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">耶鲁大学的研究团队认为，他们终于弄清了为什么陆地植物会进化出如此复杂的“血管”系统——这个谜团已经存在了大约一个世纪。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-11-21</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/意外电子书的磨损速度比实体书要快/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">意外：电子书的“磨损”速度比实体书要快</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">半个世纪前的实体书，哪怕不需要特别细心的呵护，往往到今天仍适合于阅读。但电子书呢？好吧，半个世纪前还没有电子书——但十年前的电子书又怎么样呢？</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-11-16</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/研究发现人体内存在调控脂肪燃烧的神经系统/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">研究发现人体内存在调控脂肪燃烧的神经系统</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">一直以来，研究者们都认为大脑通过监测血液中脂肪相关的激素的水平来对其进行调控。但一项新的研究显示，除此之外，脂肪与大脑之间还存在别的沟通方法。那就是通过一整套神经系统来实现信号的直接传输。来自斯克利浦研究院的神经科学专家Li Ye表示，这意味着你的大脑其实很主动地在关心你的脂肪水平。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-11-13</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/无厘头研究喜欢乱扔东西的章鱼/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/111629_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">无厘头研究：喜欢乱扔东西的章鱼</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">在11月9日发表在《PLOS ONE》杂志上的一项研究中，作者史无前例的记录了章鱼似乎故意向对方投掷淤泥和贝壳等东西的镜头，事实上，这是首次在这种生物身上观察到投掷行为。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-11-10</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/人工智能艺术家和图像的未来/">
-    <div class="relative shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="../blog/media/111571_01.jpg">
-    </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">人工智能、艺术家和图像的未来</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">由Midjourney创作的Vilém Flusser(媒介哲学家)肖像</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-11-02</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/意识假说意识是为了统合记忆而存在自主做出的决定其实是对大脑决策过程的回忆/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">意识假说：意识是为了统合记忆而存在，自主做出的决定其实是对大脑决策过程的回忆</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">波士顿的一个团队提出了一种新的意识理论，认为其与记忆密不可分。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-10-28</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/人类从何时开始使用道路/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">人类从何时开始使用道路</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">作为我们建筑环境的重要组成部分，道路几千年来一直是支持人类生存的主要基础设施。它们的建造和使用方式揭示了现代社会和经济的很多信息，但它们也可以提供一个通往历史的重要窗口。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-10-25</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/为什么同样是斑斓体表有些动物用于吸引配偶另一些则用于恐吓捕食者/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">为什么，同样是斑斓体表，有些动物用于吸引配偶，另一些则用于恐吓捕食者</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">在五彩斑斓又时尚的动物世界里，经常有撞衫的现象。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-10-24</span></div>
-        </div>
-    </div>
-</a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="../blog/二战沉船80年后仍在影响周围环境的生态/">
-    <div class="p-6">
-        <div class="text-xs font-semibold text-body-link uppercase">Blog</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">二战沉船80年后仍在影响周围环境的生态</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">一项新的研究分析了位于北海(比利时境内海域)的、第二次世界大战时的沉船V-1302约翰·马恩(John Mahn)号，发现从残骸中泄漏的物质在80年后仍在影响周围的微生物学和地球化学系统。</p></div>
-        <div class="flex mt-3 items-center">
-            <div class="text-sm text-gray-500 dark:text-dark-350"><span>2022-10-20</span></div>
-        </div>
-    </div>
-</a>
-
-                            
-                            <!-- Required only on API pages -->
-                            <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
-                        </div>
-                        <footer id="retype-content-footer" class="clear-both">
-                        
-                        </footer>
-                    </main>
+                    </ul>
+                </nav>
+    
+                <div v-cloak class="flex justify-end grow">
+                    <div id="retype-mobile-search-button"></div>
+                    <doc-search-desktop></doc-search-desktop>
+    
+                    <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                    <doc-history></doc-history>
                 </div>
-
             </div>
         </div>
-    
-        <div class="border-t dark:border-base-border">
-            <div class="max-w-core mx-auto px-6 py-6">
-                <footer>
-                    <div class="flex flex-wrap items-center justify-between">
-                        <div class="pt-3">
-                            <ul class="flex flex-wrap items-center text-sm">
-                            </ul>
+    </header>
+
+
+    <div class="relative flex mx-auto bg-white max-w-core">
+        <div class="md:hidden">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input id="retype-filter-input-mock" class="w-full h-10 pl-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded-lg shadow-none md:text-sm hover:border-filter-border-hover focus:outline-hidden focus:border-filter-border-focus placeholder-filter-placeholder" type="text">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                                <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
+                                            </svg>
+                                            <span>Source</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                                <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
+                                            </svg>
+                                            <span>RSS</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
                         </div>
-                        <div id="retype-copyright" class="print:justify-center pt-3 text-footer-text font-footer-link-weight text-sm leading-relaxed"></div>
-                    </div>
-                
-                    <div class="flex justify-center">
+            
                         <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
                             <span class="text-xs whitespace-nowrap">Powered by</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
                         </a>
                     </div>
-                </footer>
+                </template>
+            </doc-sidebar>
+        </div>
+
+        <div class="grow min-w-0 bg-body-bg">
+            <!-- Render page content -->
+<div class="grow min-w-0 px-6">
+    <main class="relative pt-6 pb-16">
+        <div class="retype-markdown" id="retype-content">
+            <!-- Rendered if sidebar right is enabled -->
+            <div id="retype-sidebar-right-toggle"></div>
+            <!-- Page content  -->
+<h1 id="blog">Blog</h1>
+<div class="card-container">
+    <a href="../blog/忌讳筷日本文化里忌讳的筷子动作/" class="group card no-link">
+        <div class="relative shrink-0 overflow-hidden bg-card-image-bg md:w-5/12 pb-9/16 md:pb-0 border-b md:border-b-0 md:border-r border-card-image-inner-border">
+            <img class="absolute object-cover w-full h-full transition-transform duration-300 ease-out group-hover:scale-105" src="../blog/media/122294_001.jpg">
+        </div>
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">忌讳筷：日本文化里忌讳的筷子动作</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">在日本用餐，筷子的使用不当不仅关乎个人礼貌，有时甚至会触碰深层的文化禁忌。这些被统称为“忌讳筷”的行为，在日语中写作kiraibashi。对于注重餐桌礼仪的人来说，掌握这些细节是尊重当地文化的第一步。 最严重的两个禁忌直接与日本的丧葬习俗挂钩。首先是“传递筷”，即两个人分别用筷子夹住同一块食物进行传递。在日本的火葬仪式后，亲属会用这种方式捡拾并传递亲人的遗骨，因此在餐桌上模仿这种动作被视为极大的不吉利。另一个是“立筷”，也就是将筷子垂直插在米饭中心。在佛教传统中，这是献给往生者的供奉方式，在日常生活中出现这种场景会让同桌的人感到非常不安。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2026-03-22</span></div>
             </div>
         </div>
-    
-        <doc-search-mobile></doc-search-mobile>
-        <doc-back-to-top></doc-back-to-top>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/从技术角度看伊朗断网/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">从技术角度看伊朗断网</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">每当伊朗爆发大规模抗议，信息流动就戛然而止。网络要么极度迟缓，要么彻底消失，仿佛城市突然被切断了脉络。 可一个现代化国家，如何在“拔掉网线”后仍能运转？难道不会让所有系统瞬间崩溃吗？ 答案并不绝对。因为过去十多年，伊朗在全球互联网的躯体里，悄悄打造了一个只属于自己的影子网络。 伊朗的国家信息网络，简称NIN，是一种封闭的内网，完全受国家掌控。它就像一座高墙围起来的沙盒：网站、银行业务、社交和政府服务都被圈进本土系统里，就算与外界失联，国内依然能维持基本运转。 这个架构有两个核心目的。其一是精准停机：政府可以随时封杀国际平台，比如WhatsApp、Instagram或境外新闻，而本地的国有媒体和银行依然畅通无阻。其二是强制所有互联网服务提供商把流量路由到政府网关，让监控、过滤或关闭网络的操作更加随心所欲。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2025-07-18</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/猪肉禁忌的起源/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">猪肉禁忌的起源</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">猪肉在全球肉类消费中占据了超过三分之一的份额，使得猪成为地球上最受欢迎的食用动物之一。然而，对于大约20亿人来说，吃猪肉是被明令禁止的。《希伯来圣经》和《古兰经》都明确要求信徒远离猪肉，这一禁忌堪称人类饮食文化中最根深蒂固的限制之一。几个世纪以来，学者们一直在苦苦追寻这一普遍禁忌的合理解释。Durham大学的考古学家Max Price感叹：“人们对猪的误解多得惊人，这让研究既令人沮丧又充满吸引力。”他和一小群学者一起，通过挖掘现代考古报告和古代石板，试图拼凑出古近东地区猪肉消费兴衰的线索。 令人意外的是，考古发现显示，青铜时代(公元前3500年至1200年)最早城市里的居民非常热衷于吃猪肉，甚至在后来的铁器时代(公元前1200年至586年)，耶路撒冷的居民偶尔也会享用猪肉盛宴。尽管有了丰富的资料和诸如古DNA分析这样的新技术，考古学家们仍然对许多与猪相关的谜团束手无策。比如，在宗教禁忌确立之前，这种曾经数量充足的动物为何逐渐变得稀少？在古近东，猪的故事不仅揭示了人类如何在首批城市中繁荣发展，还反映了经济不平等如何塑造早期城市社会，以及饮食在定义族群身份、区分敌友中扮演的关键角色。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2025-03-21</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/内容行业的内幕/" class="group card no-link">
+        <div class="relative shrink-0 overflow-hidden bg-card-image-bg md:w-5/12 pb-9/16 md:pb-0 border-b md:border-b-0 md:border-r border-card-image-inner-border">
+            <img class="absolute object-cover w-full h-full transition-transform duration-300 ease-out group-hover:scale-105" src="../blog/media/2024102501_001.webp">
+        </div>
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">内容行业的内幕</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">有一个行业，这些年蒸蒸日上，快速增长，加入的人越来越多。 它就是内容行业，生产各种各样的内容：文字、图片、音乐、影视、短视频、直播…… 为什么内容行业这么兴旺？ 因为现代人的时间，都花在网上。网上有什么？就是有内容啊。人们越是投入互联网，内容行业就越兴旺。 很多人被这个行业吸引，一门心思为互联网炮制内容，因为生产成本低，需求多，市场大，获利快……但是他们未必知道，它也有吃人的一面。 今天，我想分享一个老外程序员的文章。他是前端程序员跳槽到内容行业，干了8年，不想干了，写了自己的体会，披露这个行业的内幕。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2024-10-25</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/如何拍出爆款视频/" class="group card no-link">
+        <div class="relative shrink-0 overflow-hidden bg-card-image-bg md:w-5/12 pb-9/16 md:pb-0 border-b md:border-b-0 md:border-r border-card-image-inner-border">
+            <img class="absolute object-cover w-full h-full transition-transform duration-300 ease-out group-hover:scale-105" src="../blog/media/2024092701_001.webp">
+        </div>
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">如何拍出爆款视频</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">MrBeast 是美国第一网红，可能也是世界第一网红。他是 Youtube 订阅者最多的频道，2024年9月拥有3.17亿粉丝。 他每个视频的拍摄成本至少100万美元，制作团队有250人，可想而知，他的视频收益多么可观。 他们公司的员工培训手册（下载地址），最近流出了（下图）。 这是一个36页的 PDF 文件，是他本人写的，主要内容是告诉员工，如何在他的公司工作。 在第一页，MrBeast 要求员工熟读这本手册的每一句话，读完以后还要考试，通过者可以得到1000美元。 里面有很多 MrBeast 拍出爆款视频的经验总结，我觉得视频从业者必读，下面摘录几条。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2024-09-27</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/如何保存纸质照片/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">如何保存纸质照片</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">保护家族照片，让它们的故事代代相传。本文提供详细方法。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2024-07-28</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/钢之炼金术师中烧瓶里的小人到底是什么东西/" class="group card no-link">
+        <div class="relative shrink-0 overflow-hidden bg-card-image-bg md:w-5/12 pb-9/16 md:pb-0 border-b md:border-b-0 md:border-r border-card-image-inner-border">
+            <img class="absolute object-cover w-full h-full transition-transform duration-300 ease-out group-hover:scale-105" src="../blog/media/185179_001.webp">
+        </div>
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">《钢之炼金术师》中「烧瓶里的小人」到底是什么东西？</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">瓶中小人或烧瓶里的小人，即十六世纪的炼金术师帕拉塞尔苏斯所说的homunculus，在拉丁语中意为“小人”，指的是一个微型的、完全成形的人。 在《钢之炼金术师》中登场的人造人霍尔蒙克斯（Homunculus）均是以贤者之石为核心构成的人型生物，并且拥有常人不能想象的能力，其制造者是「父亲」。 八个人造人组成了这个动画的主要反派，父亲是首领，其他七个以七宗罪命名的反派为他工作。在最接近漫画的2009版动画中，七宗罪（Homunuli）是由叫做父亲的原始人造人（Homunculus）创造的，目的是为了摆脱自己的恶，变得更加强大。他从自己身上取下赋予他力量的贤者之石的一部分，并将其插入人类宿主或他用所需材料制造的空壳中。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2024-07-18</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/从长远来看人类历史大部分都很糟糕/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">从长远来看，人类历史大部分都很糟糕</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">像很多写政治文章的人一样，我对历史一直很感兴趣。 主要是指西方相对较近的历史事件——比如Eric Foner关于早期共和党意识形态的书籍，或者19世纪哈布斯堡帝国的民族主义和革命。但最近我开始对一些遥远的过去的主题感兴趣，比如印欧语言的起源、国家的起源，以及古代DNA研究。 这些主题本身就很有趣。但它们也让我们对较近的历史有了不同的视角，特别是经济和生活水平的历史。换句话说，思考遥远的过去强调了记录历史本身只是人类总故事的一个相对较小的部分，而现代科技动力和生活水平提升的时代本身也是记录历史中的一个小部分。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2024-07-16</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/无聊者的无尽烦恼/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">无聊者的无尽烦恼</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">对无聊者来说，所有事物都令人厌烦。我们是因为忙碌和过度刺激而感到无聊，还是因为无聊而忙碌和过度刺激呢？</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2024-06-26</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="card-container">
+    <a href="../blog/数学构筑现代世界的基石/" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="text-card-kicker font-card-kicker text-card-kicker-text card-kicker-case">Blog</div>
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">数学：构筑现代世界的基石</div>
+            <div class="line-clamp-3"><p class="mt-card-description-margin-top text-card-description-text">数学是工业革命的基石。一种新的测量和计算范式，而非科学发现本身，构建了工业、现代性和我们今天所居住的世界。 在学校，你可能听说过在工业革命之前是科学革命，牛顿发现了运动的基本法则，伽利略了解到宇宙的真实形态。凭借这些新发现和科学方法，工业革命的发明家们创造了机器——从手表到蒸汽机——这些都改变了一切。 但科学真的是关键吗？工业革命的大多数重大发明并没有深厚的科学理解作为支撑，它们的发明者也不是科学家。 标准的编年史忽略了之前500年中许多重要事件。广泛的贸易在欧洲扩展开来。艺术家开始使用线性透视法，数学家学会了使用导数。金融家开始联合股份公司，船只航行在公海上。财政强大的国家在全球范围内进行战争。</p></div>
+            <div class="flex mt-card-footer-margin-top items-center">
+                <div class="text-card-footer text-card-footer-text"><span>2024-06-06</span></div>
+            </div>
+        </div>
+    </a>
+</div>
+<nav class="blog-pager" aria-label="Blog pagination">
+<ul>
+<li class="active"><a class="no-link" href="/blog/">1</a></li>
+<li><a class="no-link" href="/blog/2/">2</a></li>
+<li><a class="no-link" href="/blog/3/">3</a></li>
+<li><a class="no-link" href="/blog/4/">4</a></li>
+<li><a class="no-link" href="/blog/5/">5</a></li>
+<li><a class="no-link" href="/blog/6/">6</a></li>
+<li><a class="no-link" href="/blog/7/">7</a></li>
+<li><a class="no-link" href="/blog/8/">8</a></li>
+<li><a class="no-link" href="/blog/9/">9</a></li>
+</ul>
+</nav>
+
+            
+            <!-- Required only on API pages -->
+            <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+        </div>
+        <footer id="retype-content-footer" class="clear-both">
+        
+        </footer>
+    </main>
+</div>
+
+        </div>
     </div>
+
+    <div class="border-t dark:border-base-border">
+        <div class="max-w-core mx-auto px-6 py-6">
+            <footer>
+                <div class="flex flex-wrap items-center justify-between">
+                    <div id="retype-footer-links" class="pt-3 print:hidden">
+                        <ul class="flex flex-wrap items-center text-sm">
+                        </ul>
+                    </div>
+                    <div id="retype-copyright" class="print:justify-center pt-3 text-footer-text font-footer-link text-sm leading-relaxed"></div>
+                </div>
+            
+                <div class="flex justify-center">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <doc-search-mobile></doc-search-mobile>
+    <doc-back-to-top></doc-back-to-top>
+</div>
 
 
     <div id="retype-overlay-target"></div>
