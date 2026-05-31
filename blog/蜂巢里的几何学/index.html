@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/PIDAN-journal">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827466264164">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.833518459634">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.3.0">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>蜂巢里的几何学</title>
@@ -17,6 +17,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://scillidan.github.io/PIDAN-journal/blog/蜂巢里的几何学/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://scillidan.github.io/PIDAN-journal/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -42,13 +43,16 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml">
 
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://scillidan.github.io/PIDAN-journal/blog/蜂巢里的几何学.md">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.3.0.827466264164" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.833518459634" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.3.0.827466264164" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.3.0.827466264164" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.833518459634" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.833518459634" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/scillidan/fonts@latest/serve/lxgw-wenkai-gb.css">
     <link href="static/user.css" rel="stylesheet" />
@@ -78,15 +82,15 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                    <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/>
                                 </svg>
                                 <span>Source</span>
                             </a>
                         </li>
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
                                     <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
                                 </svg>
                                 <span>RSS</span>
@@ -144,15 +148,15 @@
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
                                         <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://github.com/scillidan/PIDAN-journal" target="_blank">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
-                                                <path d="M10.303 16.652c-2.837-.344-4.835-2.385-4.835-5.028 0-1.074.387-2.235 1.031-3.008-.279-.709-.236-2.214.086-2.837.86-.107 2.02.344 2.708.967.816-.258 1.676-.386 2.728-.386 1.053 0 1.913.128 2.686.365.666-.602 1.848-1.053 2.708-.946.3.581.344 2.085.064 2.815.688.817 1.053 1.913 1.053 3.03 0 2.643-1.998 4.641-4.877 5.006.73.473 1.224 1.504 1.224 2.686v2.235c0 .644.537 1.01 1.182.752 3.889-1.483 6.94-5.372 6.94-10.185 0-6.081-4.942-11.044-11.022-11.044-6.081 0-10.98 4.963-10.98 11.044a10.84 10.84 0 0 0 7.112 10.206c.58.215 1.139-.172 1.139-.752v-1.719a2.768 2.768 0 0 1-1.032.215c-1.418 0-2.256-.773-2.857-2.213-.237-.58-.495-.924-.989-.988-.258-.022-.344-.129-.344-.258 0-.258.43-.451.86-.451.623 0 1.16.386 1.719 1.181.43.623.881.903 1.418.903.537 0 .881-.194 1.375-.688.365-.365.645-.687.903-.902Z"/>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                                <path d="M10.226 17.284c-2.965-.36-5.054-2.493-5.054-5.256 0-1.123.404-2.336 1.078-3.144-.292-.741-.247-2.314.09-2.965.898-.112 2.111.36 2.83 1.01.853-.269 1.752-.404 2.853-.404 1.1 0 1.999.135 2.807.382.696-.629 1.932-1.1 2.83-.988.315.606.36 2.179.067 2.942.72.854 1.101 2 1.101 3.167 0 2.763-2.089 4.852-5.098 5.234.763.494 1.28 1.572 1.28 2.807v2.336c0 .674.561 1.056 1.235.786 4.066-1.55 7.255-5.615 7.255-10.646C23.5 6.188 18.334 1 11.978 1 5.62 1 .5 6.188.5 12.545c0 4.986 3.167 9.12 7.435 10.669.606.225 1.19-.18 1.19-.786V20.63a2.9 2.9 0 0 1-1.078.224c-1.483 0-2.359-.808-2.987-2.313-.247-.607-.517-.966-1.034-1.033-.27-.023-.359-.135-.359-.27 0-.27.45-.471.898-.471.652 0 1.213.404 1.797 1.235.45.651.921.943 1.483.943.561 0 .92-.202 1.437-.719.382-.381.674-.718.944-.943"/>
                                             </svg>
                                             <span>Source</span>
                                         </a>
                                     </li>
                                     <li class="mr-6">
                                         <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" target="_blank">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="block shrink-0 mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
                                                 <path d="M3.5 3.25a.75.75 0 0 1 .75-.75C14.053 2.5 22 10.447 22 20.25a.75.75 0 0 1-1.5 0C20.5 11.275 13.225 4 4.25 4a.75.75 0 0 1-.75-.75Zm.75 6.25C10.187 9.5 15 14.313 15 20.25a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 4.25 11a.75.75 0 0 1 0-1.5ZM3.5 19a2 2 0 1 1 3.999-.001A2 2 0 0 1 3.5 19Z"/>
                                             </svg>
                                             <span>RSS</span>
@@ -176,9 +180,11 @@
             <!-- Render page content -->
 <div class="grow min-w-0 px-6">
     <main class="relative pt-6 pb-16">
-        <div class="retype-markdown" id="retype-content">
+        <div class="relative retype-markdown" id="retype-content">
             <!-- Rendered if sidebar right is enabled -->
             <div id="retype-sidebar-right-toggle"></div>
+            <doc-page-actions></doc-page-actions>
+
             <!-- Page content  -->
 <h1 id="蜂巢里的几何学">蜂巢里的几何学</h1>
 <div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
@@ -196,31 +202,28 @@
 </div>
 
 <p><strong>蜜蜂和黄蜂不像数学家，但它们能用几何学解决建筑难题。</strong></p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="../media/113676_01.jpg" alt="蜜蜂的巢(如图所示)主要由蜡制成的六边形蜂房组成，但也有成对的五边形和七边形蜂房有助于将不同大小的六边形组合在一起。" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="690" height="389" />
     <figcaption class="caption">蜜蜂的巢(如图所示)主要由蜡制成的六边形蜂房组成，但也有成对的五边形和七边形蜂房有助于将不同大小的六边形组合在一起。</figcaption>
 </figure>
-</p>
 <p>蜜蜂和黄蜂看起来并不像数学家，它们身形比较小。但是，这些昆虫能够通过几何学的解决方案集体解决一个常见的建筑难题，并独立进化出这种解决方案。</p>
 <p>随着它们的群体不断扩大，这些蜜蜂和黄蜂最终需要增加构成它们巢穴的六边形蜂房的大小。但是，巢穴材料昂贵，而且很难将不同大小的六边形蜂房高效地组合成一个连续的数组。研究人员在7月27日的《PLOS 生物学》杂志上报道称，蜜蜂和黄蜂都通过混合一些五边形和七边形的蜂房来解决这个问题，这些蜂房在不同大小的六边形蜂房之间形成了桥梁。团队表示，这种修补方法接近于解决这个问题的最佳方法。</p>
 <p>乔治亚大学的蜜蜂生物学家路Lewis Bartlett说：“我们长期以来一直知道，蜜蜂和黄蜂使用的六边形蜂房是最有效、最稳定的形状，但是混合不同大小的六边形却很棘手。”</p>
 <p>像蜜蜂和一些黄蜂的社会昆虫群体一样，是由养育母亲女工掌控的。它们在由蜜蜂用蜡制成和由黄蜂用纸张构建的六边形的蜂房里养育后代。在其生命周期的某个时候，群体需要从育成工蜂转变为育成繁殖期的昆虫，如雄蜂和新女王。这些繁殖昆虫通常比工蜂大，这意味着六边形蜂房也需要变大。</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="../media/113676_02.jpg" alt="蜜蜂巢穴的一部分(左)和两种黄蜂的巢穴(中，右)的图像显示出成对的五边形和七边形细胞(突出显示)，它们依偎在六边形细胞中间。每幅图像的底部朝向巢穴的较新部分，这意味着这些昆虫在七边形细胞之前建造了五边形细胞，以帮助将较小、较老的六边形细胞(顶部)与较大、较新的六边形细胞(底部)连接起来。" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="680" height="413" />
     <figcaption class="caption">蜜蜂巢穴的一部分(左)和两种黄蜂的巢穴(中，右)的图像显示出成对的五边形和七边形细胞(突出显示)，它们依偎在六边形细胞中间。每幅图像的底部朝向巢穴的较新部分，这意味着这些昆虫在七边形细胞之前建造了五边形细胞，以帮助将较小、较老的六边形细胞(顶部)与较大、较新的六边形细胞(底部)连接起来。</figcaption>
 </figure>
-</p>
 <p>阿拉巴马州奥本大学的生物学家Michael Smith说：“想象一下有人在你的浴室地板上铺瓷砖，如果你有两种不同大小的六边形，你会把小的放在一边，大的放在另一边，试图将它们拼凑在一起时就会遇到问题。”</p>
 <p>为了找出蜜蜂和黄蜂如何解决这个铺砖难题，Smith和他的同事们分析了115张由五种蜜蜂(Apis mellifera、A. cerana、A. dorsata、A. florea和A. andreniformis)、四种黄蜂(V. vulgaris、V. maculifrons、V. flavopilosa和V. shidai，北美通常称之为黄蜂)和一种纸黄蜂(Metapolybia mesoamerica)构成的群体的图像。</p>
 <p>科尔尼尔大学机器人学家克尔Kirstin Petersen开发了自动图像分析工具，使科学家们从22,745个蜂房中提取了数据，如蜂房的长度以及每个蜂房有多少个邻居。Smith还手动验证了每个蜂房的数据。这个自动化工具使团队能够从不完美的蜂房中获取数据，许多科学家因手动测量的困难而忽视了这些似乎不规则的蜂房。但这些看似不规则的蜂房实际上非常规则。</p>
 <p>当从小的工蜂蜂房转变为大的繁殖蜂蜂房时，所有的蜜蜂和黄蜂都会建造相邻的五边形和七边形蜂房对来连接不同大小的六边形蜂房。五七配对与两个六边形蜂房连接时具有相同数量的开放边缘，因此不会破坏规律。而七边形蜂房的较大尺寸允许蜜蜂和黄蜂在其另一侧无缝地开始制造更大的六边形蜂房。“它们总是先建造五边形蜂房，然后是七边形蜂房，”Smith说。</p>
 <p>同事Nils Napp是科尔尼尔大学的一位计算机科学家，他设计了这种策略的数学模型，并发现蜜蜂和黄蜂正在做的事情接近于最优的几何解决方案。</p>
 <p>建立一个六边形蜂房的最有效方法是通过德劳内三角测量来表示。想象一张标有几十个点的纸片。然后，通过连接相邻的点，用三角形填满整个纸片。最后，在每个三角形周围画一个触及每个角的圆。在德劳内三角测量的布局中，没有任何点位于这些圆的内部。连接相邻圆心的额外线条会产生一个由多边形构成的铺设，就像蜜蜂和黄蜂蜂房中的六边形格子一样。</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="../media/113676_03.jpg" alt="在德劳内三角测量(左)中，通过连接相邻的点(黑色)来绘制三角形，并且三角形被布置为使得没有点位于外接每个三角形的圆内。 红点标记了这些圆的中心。 将这些红点连接在一起(右)创建了多边形的平铺(红色)，就像蜜蜂或黄色夹克的巢的六边形。" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="680" height="338" />
     <figcaption class="caption">在德劳内三角测量(左)中，通过连接相邻的点(黑色)来绘制三角形，并且三角形被布置为使得没有点位于外接每个三角形的圆内。 红点标记了这些圆的中心。 将这些红点连接在一起(右)创建了多边形的平铺(红色)，就像蜜蜂或黄色夹克的巢的六边形。</figcaption>
 </figure>
-</p>
 <p>Napp的模型表明，向蜂房中添加更大的六边形会逐渐使整个数组远离完美，从而可能导致间隙形成或工蜂需要建造一个无法使用的蜂房来维持巢穴的稳定性。最优的做法是在即将违反德劳内条件的时候添加五七配对。在所有蜜蜂和黄蜂物种中，约 85% 的非六边形蜂房都是五七配对，正如该模型预测的那样。</p>
 <p>这项研究中使用的蜜蜂和黄蜂相隔了1.79亿年的进化历程，它们用的材料也不同。Bartlett说：“但它们都进化出了使用五七规则来过渡六边形大小的方法。进化倾向于最优解决方案。”</p>
 
@@ -286,6 +289,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "蜂巢里的几何学", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "蜂巢里的几何学", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/blog/蜂巢里的几何学.md" }</script>
 </body>
 </html>
