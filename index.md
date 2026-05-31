@@ -92,5 +92,12 @@ PIDAN (academic) journal
 | 2020-05-19 | :icon-squirrel:      | jandan.net   | mailer      | [火烈鸟可能对同伴很挑剔](./blog/"火烈鸟可能对同伴很挑剔") |
 | 2020-05-09 | :icon-moon:          | jandan.net   | icosohedral | [“我们家门口”的黑洞](./blog/"“我们家门口”的黑洞") |
 | 2019-10-26 | :icon-moon:          | scillidan    | scillidan   | [北欧风木材选购指南](./blog/"北欧风木材选购指南") |
+<<<<<<< HEAD
 | 2017-06-25 | :icon-accessibility: | jandan.net   | 中立大手指  | [1918年，爱因斯坦化解了科学史上最大的人质危机](./blog/"1918年，爱因斯坦化解了科学史上最大的人质危机") |
 | 2015-08-16 | :icon-tools:         | jandan.net   | 回风         | [Deploy Hexo sites to VPS](./blog/"Deploy-Hexo-sites-to-VPS") |
+||||||| parent of df842c5 (Move out)
+| 2017-06-25 | :icon-accessibility: | jandan.net   | 中立大手指  | [1918年，爱因斯坦化解了科学史上最大的人质危机](./blog/"1918年，爱因斯坦化解了科学史上最大的人质危机") |
+| 2015-08-16 | :icon-tools:         | jandan.net   | 回风         | [Deploy Hexo sites to VPS](./blog/"Deploy-Hexo-sites-to-VPS") |
+=======
+| 2017-06-25 | :icon-accessibility: | jandan.net   | 中立大手指  | [1918年，爱因斯坦化解了科学史上最大的人质危机](./blog/"1918年，爱因斯坦化解了科学史上最大的人质危机") |
+>>>>>>> df842c5 (Move out)
