@@ -7,6 +7,7 @@
 ## Blog
 
 - [Blog](https://scillidan.github.io/PIDAN-journal/blog/)
+- [什么是人类？从真核生物到智人的19层演化拆解](https://scillidan.github.io/PIDAN-journal/blog/%E4%BB%80%E4%B9%88%E6%98%AF%E4%BA%BA%E7%B1%BB%E4%BB%8E%E7%9C%9F%E6%A0%B8%E7%94%9F%E7%89%A9%E5%88%B0%E6%99%BA%E4%BA%BA%E7%9A%8419%E5%B1%82%E6%BC%94%E5%8C%96%E6%8B%86%E8%A7%A3.md): 什么是人类？一篇博客文章用游戏《恶魔城X：月下夜想曲》的经典台词给出了答案，，将原作中的"秘密"替换为"分支群"。沿着演化树一路向外，人类被嵌套在整整19层分支群之中。
 - [忌讳筷：日本文化里忌讳的筷子动作](https://scillidan.github.io/PIDAN-journal/blog/%E5%BF%8C%E8%AE%B3%E7%AD%B7%E6%97%A5%E6%9C%AC%E6%96%87%E5%8C%96%E9%87%8C%E5%BF%8C%E8%AE%B3%E7%9A%84%E7%AD%B7%E5%AD%90%E5%8A%A8%E4%BD%9C.md): 在日本用餐，筷子的使用不当不仅关乎个人礼貌，有时甚至会触碰深层的文化禁忌。这些被统称为“忌讳筷”的行为，在日语中写作kiraibashi。对于注重餐桌礼仪的人来说，掌握这些细节是尊重当地文化的第一步。
 - [从技术角度看伊朗断网](https://scillidan.github.io/PIDAN-journal/blog/%E4%BB%8E%E6%8A%80%E6%9C%AF%E8%A7%92%E5%BA%A6%E7%9C%8B%E4%BC%8A%E6%9C%97%E6%96%AD%E7%BD%91.md): 伊朗断网背后隐藏复杂网络体系，防火墙与卫星并存，仍留信息突破口。
 - [猪肉禁忌的起源](https://scillidan.github.io/PIDAN-journal/blog/%E7%8C%AA%E8%82%89%E7%A6%81%E5%BF%8C%E7%9A%84%E8%B5%B7%E6%BA%90.md): 猪肉占全球肉类三分之一，却被20亿人视为禁忌。从古近东的猪宴到宗教禁令，这篇文章揭秘人类如何因经济、环境与身份认同，逐渐疏远这一多产的动物。

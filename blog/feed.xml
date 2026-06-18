@@ -3,9 +3,16 @@
   <channel>
     <title>𝕻𝕴𝕯𝕬𝕹 𝖏𝖔𝖚𝖗𝖓𝖆𝖑 Blog</title>
     <link>https://scillidan.github.io/PIDAN-journal/blog/</link>
-    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 GMT</lastBuildDate>
     <generator>Retype 4.6.0</generator>
     <atom:link rel="self" type="application/rss+xml" href="https://scillidan.github.io/PIDAN-journal/blog/feed.xml" />
+    <item>
+      <title>什么是人类？从真核生物到智人的19层演化拆解</title>
+      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/什么是人类从真核生物到智人的19层演化拆解/</guid>
+      <description>什么是人类？一篇博客文章用游戏《恶魔城X：月下夜想曲》的经典台词给出了答案，，将原作中的"秘密"替换为"分支群"。沿着演化树一路向外，人类被嵌套在整整19层分支群之中。</description>
+      <author>BALI - https://jandan.net/p/author/bali</author>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>忌讳筷：日本文化里忌讳的筷子动作</title>
       <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/忌讳筷日本文化里忌讳的筷子动作/</guid>
@@ -138,13 +145,6 @@
       <description>这个地图故事讲的是关于一张特殊的地图，这是罗马帝国的唯一遗留地图。这张地图长6.8米，高33厘米，跨度从今日的西法到斯里兰卡，从南部的阿斯旺到北部的海牙，几乎包括了已知世界的所有地方。它显示的是公共课程的路线，这是国家管理的供信使和官方运输使用的道路网。我们称之为Tabula Peutingeriana。</description>
       <author>chaozaiji - https://jandan.net/p/author/chaozaiji</author>
       <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>一文搞懂复式记账原理</title>
-      <guid isPermaLink="true">https://scillidan.github.io/PIDAN-journal/blog/一文搞懂复式记账原理/</guid>
-      <description>我们不是财务人员也没有想要成为财务人员，为什么要学习复式记账？</description>
-      <author>accelee - https://sspai.com/u/ecjuu535</author>
-      <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
